@@ -1,0 +1,9 @@
+uid: INT-0006
+type: intent
+status: approved
+title: C6 — Supply Chain Security for Models
+text: This chapter addresses defending against AI supply chain attacks that exploit third-party
+  models, frameworks, or datasets to embed backdoors, bias, or exploitable code.
+normative: false
+attrs:
+  source_ref: C6

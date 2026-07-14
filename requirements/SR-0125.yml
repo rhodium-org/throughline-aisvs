@@ -1,0 +1,13 @@
+uid: SR-0125
+type: system_requirement
+status: approved
+title: AISVS 9.5.4
+text: Verify that secrets and credentials required by an agent at runtime are not exposed within
+  the model's observable context, including the context window, system prompts, or tool call
+  parameters.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: 9.5.4
+  level: '2'

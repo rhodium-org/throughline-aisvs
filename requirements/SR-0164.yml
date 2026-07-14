@@ -1,0 +1,11 @@
+uid: SR-0164
+type: system_requirement
+status: approved
+title: AISVS 11.3.1
+text: Verify that query-pattern analysis feeds an extraction-attempt detector.
+links:
+- target: UR-0038
+  type: implements
+attrs:
+  source_ref: 11.3.1
+  level: '1'

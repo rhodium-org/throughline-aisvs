@@ -1,0 +1,12 @@
+uid: UR-0017
+type: user_requirement
+status: approved
+title: C6.1 — Model Artifact Integrity
+text: Model Artifact Integrity
+rationale: Third-party model origins must be authenticated and checked for hidden behavior before
+  fine-tuning or deployment, and AI artifacts should be downloaded only from approved sources.
+links:
+- target: INT-0006
+  type: derives_from
+attrs:
+  source_ref: C6.1

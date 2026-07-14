@@ -1,0 +1,9 @@
+uid: INT-0003
+type: intent
+status: approved
+title: C3 — Model Lifecycle Management & Change Control
+text: This chapter addresses control of model changes so that unauthorized or unsafe modifications
+  cannot reach production.
+normative: false
+attrs:
+  source_ref: C3

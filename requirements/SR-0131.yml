@@ -1,0 +1,12 @@
+uid: SR-0131
+type: system_requirement
+status: approved
+title: AISVS 10.1.1
+text: Verify that MCP components are obtained only from trusted sources and cryptographically
+  verified.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: 10.1.1
+  level: '1'

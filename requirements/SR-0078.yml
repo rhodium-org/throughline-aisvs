@@ -1,0 +1,12 @@
+uid: SR-0078
+type: system_requirement
+status: approved
+title: AISVS 7.3.1
+text: Verify that automated classifiers scan every response and block content that matches defined
+  harmful content categories.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: 7.3.1
+  level: '1'

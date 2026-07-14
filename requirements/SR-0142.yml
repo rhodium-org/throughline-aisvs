@@ -1,0 +1,11 @@
+uid: SR-0142
+type: system_requirement
+status: approved
+title: AISVS 10.3.2
+text: Verify that stdio transport is permitted only in controlled local environments.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: 10.3.2
+  level: '1'

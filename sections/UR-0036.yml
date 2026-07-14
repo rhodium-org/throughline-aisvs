@@ -1,0 +1,12 @@
+uid: UR-0036
+type: user_requirement
+status: approved
+title: C11.1 — Model Alignment, Safety, and Robustness Testing and Training
+text: Model Alignment, Safety, and Robustness Testing and Training
+rationale: Model resilience to manipulated inputs designed to cause misclassification or policy
+  bypass must be increased, primarily through adversarial testing and robustness benchmarking.
+links:
+- target: INT-0011
+  type: derives_from
+attrs:
+  source_ref: C11.1

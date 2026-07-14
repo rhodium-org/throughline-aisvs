@@ -1,0 +1,13 @@
+uid: SR-0062
+type: system_requirement
+status: approved
+title: AISVS 5.2.6
+text: Verify that privileged access to model weights, training pipelines, and production AI
+  configuration is granted just in time, with a defined maximum session duration and automatic
+  expiry. Zero Standing Privilege (ZSP) to these resources is encouraged.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: 5.2.6
+  level: '3'

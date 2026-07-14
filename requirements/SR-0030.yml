@@ -1,0 +1,12 @@
+uid: SR-0030
+type: system_requirement
+status: approved
+title: AISVS 3.2.2
+text: Verify that models subjected to post-training quantization are re-evaluated against the
+  same safety and alignment test suite on the compressed artifact before deployment.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: 3.2.2
+  level: '2'

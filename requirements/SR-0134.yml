@@ -1,0 +1,12 @@
+uid: SR-0134
+type: system_requirement
+status: approved
+title: AISVS 10.2.1
+text: Verify that MCP servers validate access tokens for each request and do not rely on transport
+  security alone.
+links:
+- target: UR-0033
+  type: implements
+attrs:
+  source_ref: 10.2.1
+  level: '1'

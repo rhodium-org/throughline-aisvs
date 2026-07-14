@@ -1,0 +1,12 @@
+uid: UR-0031
+type: user_requirement
+status: approved
+title: C9.6 — Shutdown and Graceful Degradation
+text: Shutdown and Graceful Degradation
+rationale: Shutdown and graceful degradation paths must remain under human control, with mechanisms
+  that stay reliable and are exercised over time.
+links:
+- target: INT-0009
+  type: derives_from
+attrs:
+  source_ref: C9.6

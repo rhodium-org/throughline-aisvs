@@ -1,0 +1,11 @@
+uid: SR-0132
+type: system_requirement
+status: approved
+title: AISVS 10.1.2
+text: Verify that only allow-listed MCP servers are permitted.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: 10.1.2
+  level: '2'

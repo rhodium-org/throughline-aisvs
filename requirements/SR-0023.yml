@@ -1,0 +1,11 @@
+uid: SR-0023
+type: system_requirement
+status: approved
+title: AISVS 2.2.2
+text: Verify that prompt content classification is evaluated for unsupported languages.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: 2.2.2
+  level: '1'

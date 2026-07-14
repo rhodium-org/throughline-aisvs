@@ -1,0 +1,9 @@
+uid: INT-0002
+type: intent
+status: approved
+title: C2 — Input Validation
+text: This chapter addresses validation of all inputs as a first-line defense against prompt
+  injection, one of the most damaging attacks on AI systems.
+normative: false
+attrs:
+  source_ref: C2

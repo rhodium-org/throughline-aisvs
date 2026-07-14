@@ -1,0 +1,13 @@
+uid: UR-0003
+type: user_requirement
+status: approved
+title: C1.3 — Training Data Quality and Security Assurance
+text: Training Data Quality and Security Assurance
+rationale: Quality and security assurance controls help detect corruption, poisoning, labeling
+  errors, and exploitable dataset patterns before they affect model behavior. Pipelines should
+  combine automated validation, poisoning detection, label quality checks, and bias analysis.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: C1.3

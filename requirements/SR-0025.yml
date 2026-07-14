@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: AISVS 2.2.4
+text: Verify that coordinated attacks spanning multiple input types (e.g., steganographic payloads
+  in images combined with prompt injection in text) are detected and blocked.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: 2.2.4
+  level: '3'

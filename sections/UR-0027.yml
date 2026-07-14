@@ -1,0 +1,12 @@
+uid: UR-0027
+type: user_requirement
+status: approved
+title: C9.2 — High-Impact Action Approval and Irreversibility Controls
+text: High-Impact Action Approval and Irreversibility Controls
+rationale: Privileged, high-impact, or hard-to-reverse agent actions must require trusted approval
+  checkpoints.
+links:
+- target: INT-0009
+  type: derives_from
+attrs:
+  source_ref: C9.2

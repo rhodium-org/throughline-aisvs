@@ -1,0 +1,11 @@
+uid: SR-0148
+type: system_requirement
+status: approved
+title: AISVS 10.4.3
+text: Verify that MCP servers reject unrecognized or oversized parameters in function calls.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: 10.4.3
+  level: '1'

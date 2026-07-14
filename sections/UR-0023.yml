@@ -1,0 +1,12 @@
+uid: UR-0023
+type: user_requirement
+status: approved
+title: C8.1 — Access Controls on Memory & RAG Indices
+text: Access Controls on Memory & RAG Indices
+rationale: Fine-grained access controls and query-time scope enforcement must be applied to
+  every vector collection.
+links:
+- target: INT-0008
+  type: derives_from
+attrs:
+  source_ref: C8.1

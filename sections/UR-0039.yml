@@ -1,0 +1,12 @@
+uid: UR-0039
+type: user_requirement
+status: approved
+title: C11.4 — Model Runtime Anomaly Detection
+text: Model Runtime Anomaly Detection
+rationale: Manipulated, backdoored, or adversarial data entering the model context at inference
+  time via external sources must be identified and neutralized.
+links:
+- target: INT-0011
+  type: derives_from
+attrs:
+  source_ref: C11.4

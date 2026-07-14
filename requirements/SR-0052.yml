@@ -1,0 +1,11 @@
+uid: SR-0052
+type: system_requirement
+status: approved
+title: AISVS 4.3.3
+text: Verify that inference runtimes enforce process, memory, and file access isolation.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: 4.3.3
+  level: '3'

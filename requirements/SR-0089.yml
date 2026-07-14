@@ -1,0 +1,12 @@
+uid: SR-0089
+type: system_requirement
+status: approved
+title: AISVS 8.2.1
+text: Verify that sensitive fields are detected before embedding and are masked, tokenized,
+  or dropped.
+links:
+- target: UR-0024
+  type: implements
+attrs:
+  source_ref: 8.2.1
+  level: '1'

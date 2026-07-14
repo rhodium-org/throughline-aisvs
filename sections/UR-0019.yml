@@ -1,0 +1,11 @@
+uid: UR-0019
+type: user_requirement
+status: approved
+title: C7.1 — Output Format Enforcement
+text: Output Format Enforcement
+rationale: Model outputs must be structured and validated to reduce downstream injection risk.
+links:
+- target: INT-0007
+  type: derives_from
+attrs:
+  source_ref: C7.1

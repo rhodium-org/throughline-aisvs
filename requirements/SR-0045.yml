@@ -1,0 +1,11 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: AISVS 4.2.1
+text: Verify that AI accelerator (GPU) firmware is version-pinned, signed, and attested at boot.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: 4.2.1
+  level: '2'

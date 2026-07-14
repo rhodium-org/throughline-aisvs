@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: AISVS 1.1.4
+text: Verify that integrity monitoring is applied to guard against unauthorized modifications
+  or corruption of training data.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: 1.1.4
+  level: '2'

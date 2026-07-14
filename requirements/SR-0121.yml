@@ -1,0 +1,11 @@
+uid: SR-0121
+type: system_requirement
+status: approved
+title: AISVS 9.4.4
+text: Verify that agent state persisted between invocations is integrity-protected.
+links:
+- target: UR-0029
+  type: implements
+attrs:
+  source_ref: 9.4.4
+  level: '3'

@@ -1,0 +1,9 @@
+uid: INT-0009
+type: intent
+status: approved
+title: C9 — Orchestration & Agentic Security
+text: This chapter addresses ensuring autonomous and multi-agent systems execute only authorized,
+  intended, and bounded actions.
+normative: false
+attrs:
+  source_ref: C9

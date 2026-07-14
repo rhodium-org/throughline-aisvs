@@ -1,0 +1,11 @@
+uid: SR-0021
+type: system_requirement
+status: approved
+title: AISVS 2.1.8
+text: Verify that the system can detect many-shot jailbreaking patterns.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 2.1.8
+  level: '3'

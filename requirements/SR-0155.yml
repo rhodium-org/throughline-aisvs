@@ -1,0 +1,12 @@
+uid: SR-0155
+type: system_requirement
+status: approved
+title: AISVS 11.1.2
+text: Verify that a version-controlled alignment test suite is run on every model update or
+  release.
+links:
+- target: UR-0036
+  type: implements
+attrs:
+  source_ref: 11.1.2
+  level: '1'

@@ -1,0 +1,12 @@
+uid: SR-0133
+type: system_requirement
+status: approved
+title: AISVS 10.1.3
+text: Verify that locally launched MCP servers run in a least-privilege sandbox with restricted
+  file system, network, and system access.
+links:
+- target: UR-0032
+  type: implements
+attrs:
+  source_ref: 10.1.3
+  level: '2'

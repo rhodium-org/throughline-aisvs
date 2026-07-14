@@ -1,0 +1,12 @@
+uid: SR-0098
+type: system_requirement
+status: approved
+title: AISVS 9.1.2
+text: Verify that per-execution budgets (e.g., max recursion depth, token use, and monetary
+  spend) are configured and enforced by the runtime.
+links:
+- target: UR-0026
+  type: implements
+attrs:
+  source_ref: 9.1.2
+  level: '1'

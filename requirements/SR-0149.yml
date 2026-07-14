@@ -1,0 +1,11 @@
+uid: SR-0149
+type: system_requirement
+status: approved
+title: AISVS 10.4.4
+text: Verify that all MCP servers enforce strict schema validation.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: 10.4.4
+  level: '2'

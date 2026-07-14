@@ -1,0 +1,12 @@
+uid: SR-0047
+type: system_requirement
+status: approved
+title: AISVS 4.2.3
+text: Verify that AI accelerator (GPU) integrity is validated using hardware-based attestation
+  mechanisms before each workload executes.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: 4.2.3
+  level: '3'

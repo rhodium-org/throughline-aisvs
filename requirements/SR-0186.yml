@@ -1,0 +1,12 @@
+uid: SR-0186
+type: system_requirement
+status: approved
+title: AISVS 12.4.2
+text: Verify that audit logs capture security-critical proactive actions, including approver
+  identity, timestamp, action parameters, and decision outcomes.
+links:
+- target: UR-0043
+  type: implements
+attrs:
+  source_ref: 12.4.2
+  level: '2'

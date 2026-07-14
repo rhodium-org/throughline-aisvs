@@ -1,0 +1,11 @@
+uid: SR-0072
+type: system_requirement
+status: approved
+title: AISVS 6.2.3
+text: Verify that AI BOM completeness checks fail the build if any component metadata is missing.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: 6.2.3
+  level: '2'

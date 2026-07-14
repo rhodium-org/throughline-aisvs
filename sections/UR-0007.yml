@@ -1,0 +1,11 @@
+uid: UR-0007
+type: user_requirement
+status: approved
+title: C3.2 — Model Validation & Testing
+text: Model Validation & Testing
+rationale: Models must pass defined security and safety validations before deployment.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C3.2

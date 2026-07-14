@@ -1,0 +1,12 @@
+uid: SR-0061
+type: system_requirement
+status: approved
+title: AISVS 5.2.5
+text: Verify that the policy decision point for agent authorization is isolated from the agent's
+  execution environment.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: 5.2.5
+  level: '2'

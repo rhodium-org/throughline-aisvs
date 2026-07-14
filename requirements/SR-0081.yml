@@ -1,0 +1,12 @@
+uid: SR-0081
+type: system_requirement
+status: approved
+title: AISVS 7.3.4
+text: Verify that model outputs are checked for hidden, encoded, or misleading content created
+  through homoglyphs, formatting, metadata, or structured fields.
+links:
+- target: UR-0021
+  type: implements
+attrs:
+  source_ref: 7.3.4
+  level: '3'

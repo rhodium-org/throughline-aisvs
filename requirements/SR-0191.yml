@@ -1,0 +1,12 @@
+uid: SR-0191
+type: system_requirement
+status: approved
+title: AISVS 12.5.4
+text: Verify that every ingested document is tagged at write time with source, writer identity,
+  and timestamp.
+links:
+- target: UR-0044
+  type: implements
+attrs:
+  source_ref: 12.5.4
+  level: '2'

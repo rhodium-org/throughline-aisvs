@@ -1,0 +1,13 @@
+uid: SR-0101
+type: system_requirement
+status: approved
+title: AISVS 9.2.2
+text: Verify that approval requests display canonicalized and complete action parameters, such
+  as diffs, commands, recipients, amounts, resources, and scopes, without truncation or unsafe
+  transformation.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.2
+  level: '2'

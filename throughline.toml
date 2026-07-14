@@ -1,0 +1,63 @@
+[project]
+name = "OWASP AISVS 1.0 (throughline source)"
+format_version = 2
+
+# A throughline *source*: a standalone graph a consuming project composes via
+# throughline-compose, importing it under a namespace (e.g. `aisvs`) and referencing
+# requirements as `aisvs:SR-0042`. The UIDs here are this source's own and immutable; the
+# AISVS number (`2.1.1`, `C2`, `C2.1`) lives in `attrs.source_ref`, never in the UID.
+
+[grounding]
+root_types = ["intent"]
+delivery_roots = ["intent"]
+ground_link_types = ["derives_from", "implements"]
+ai_origins = ["ai", "hybrid"]
+
+# The "why" spine is MULTI-ROOT by design — the reason AISVS earns this treatment. AISVS
+# publishes a distinct **Control Objective** for each of its 12 categories, and those are 12
+# genuinely different reasons an AI system must behave (training-data integrity is not the
+# same "why" as agentic-action containment or adversarial robustness). So there are 12
+# co-equal **root** intents (INT-0001..INT-0012 = C1..C12), never a single umbrella that
+# flattens every clause's reason-for-existing into one bland "…exists". Each sub-section
+# (C2.1 "Prompt Injection Defenses") is a user_requirement that `derives_from` its own
+# category and carries the sub-section's own prose as its `rationale`; each numbered clause
+# ("Verify that …") is a system_requirement that `implements` its sub-section. AISVS's
+# hierarchy is strict (one category per sub-section, one sub-section per clause), so a clause
+# grounds to its category through implements->derives_from with no extra edge.
+
+[types.user_requirement]
+# source_ref = the AISVS sub-section handle ("C2.1").
+attrs.source_ref = { required = true }
+
+[types.system_requirement]
+# source_ref = the AISVS requirement number ("2.1.1"); level = the assurance level the
+# clause is graded at (1/2/3) — AISVS's "various guises" are these levels on one graph,
+# not separate forks. Editions (1.0, and future releases) are git tags of this one repo.
+attrs.source_ref = { required = true }
+attrs.level = { required = true, values = ["1", "2", "3"] }
+
+[links]
+types = ["derives_from", "implements", "relates"]
+
+[link_rules]
+derives_from = { from = ["user_requirement"], to = ["intent"] }
+implements   = { from = ["system_requirement"], to = ["user_requirement"] }
+
+[status]
+values = ["proposed", "draft", "deferred", "approved", "ratified", "implemented",
+          "verified", "suspect", "rejected", "deleted"]
+
+[transitions]
+proposed    = ["draft", "approved", "ratified", "deferred", "rejected", "deleted"]
+draft       = ["approved", "deferred", "rejected", "deleted"]
+deferred    = ["draft", "approved", "rejected", "deleted"]
+approved    = ["ratified", "implemented", "deferred", "suspect", "rejected", "deleted"]
+ratified    = ["implemented", "suspect", "rejected", "deleted"]
+implemented = ["verified", "suspect", "rejected", "deleted"]
+verified    = ["implemented", "suspect", "deleted"]
+suspect     = ["approved", "ratified", "implemented", "verified", "rejected", "deleted"]
+rejected    = ["draft", "deleted"]
+
+# `tl docs` regenerates docs/*.md from the graph; `tl docs --check` gates it.
+[docs]
+paths = ["README.md", "docs/*.md"]

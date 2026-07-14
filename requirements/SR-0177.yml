@@ -1,0 +1,12 @@
+uid: SR-0177
+type: system_requirement
+status: approved
+title: AISVS 12.2.3
+text: Verify that custom rules detect AI-specific threat patterns for coordinated jailbreak
+  attempts, prompt injection, and system prompt extraction attempts.
+links:
+- target: UR-0041
+  type: implements
+attrs:
+  source_ref: 12.2.3
+  level: '2'

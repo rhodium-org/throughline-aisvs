@@ -1,0 +1,11 @@
+uid: UR-0029
+type: user_requirement
+status: approved
+title: C9.4 — Agent and Orchestrator Identity
+text: Agent and Orchestrator Identity
+rationale: Every action must be attributable and every mutation detectable.
+links:
+- target: INT-0009
+  type: derives_from
+attrs:
+  source_ref: C9.4

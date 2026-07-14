@@ -1,0 +1,11 @@
+uid: SR-0171
+type: system_requirement
+status: approved
+title: AISVS 12.1.1
+text: Verify that AI interactions are logged with session context and AI-specific telemetry.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: 12.1.1
+  level: '1'

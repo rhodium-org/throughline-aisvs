@@ -1,0 +1,12 @@
+uid: SR-0122
+type: system_requirement
+status: approved
+title: AISVS 9.5.1
+text: Verify that agent actions are authorized against fine-grained policies enforced by the
+  runtime that restrict which tools an agent may invoke, and which parameter values it may supply.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: 9.5.1
+  level: '2'

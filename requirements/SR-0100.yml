@@ -1,0 +1,12 @@
+uid: SR-0100
+type: system_requirement
+status: approved
+title: AISVS 9.2.1
+text: Verify that the agent runtime blocks execution of privileged, high-impact, or irreversible
+  actions until explicit human approval is received and verified.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.1
+  level: '1'

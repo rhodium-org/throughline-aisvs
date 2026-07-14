@@ -1,0 +1,11 @@
+uid: SR-0187
+type: system_requirement
+status: approved
+title: AISVS 12.4.3
+text: Verify that kill-switch activations and override commands are logged.
+links:
+- target: UR-0043
+  type: implements
+attrs:
+  source_ref: 12.4.3
+  level: '2'

@@ -1,0 +1,11 @@
+uid: SR-0157
+type: system_requirement
+status: approved
+title: AISVS 11.1.4
+text: Verify that models are hardened against adversarial inputs.
+links:
+- target: UR-0036
+  type: implements
+attrs:
+  source_ref: 11.1.4
+  level: '2'

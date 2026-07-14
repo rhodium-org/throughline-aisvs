@@ -1,0 +1,12 @@
+uid: SR-0172
+type: system_requirement
+status: approved
+title: AISVS 12.1.2
+text: Verify that safety filtering and policy decisions are logged with sufficient detail to
+  support audit, debugging, and forensic analysis of content moderation systems.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: 12.1.2
+  level: '2'

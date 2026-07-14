@@ -1,0 +1,11 @@
+uid: SR-0071
+type: system_requirement
+status: approved
+title: AISVS 6.2.2
+text: Verify that AI BOMs are cryptographically signed before deployment.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: 6.2.2
+  level: '2'

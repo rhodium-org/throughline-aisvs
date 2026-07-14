@@ -1,0 +1,12 @@
+uid: SR-0104
+type: system_requirement
+status: approved
+title: AISVS 9.2.5
+text: Verify that any self-modification capability (e.g., prompt rewriting, tool-list changes,
+  parameter updates) is restricted by enforceable boundaries.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.5
+  level: '2'

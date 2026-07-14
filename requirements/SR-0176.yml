@@ -1,0 +1,12 @@
+uid: SR-0176
+type: system_requirement
+status: approved
+title: AISVS 12.2.2
+text: Verify that behavioral anomaly detection identifies unusual conversation patterns, excessive
+  retry attempts, or probing behaviors.
+links:
+- target: UR-0041
+  type: implements
+attrs:
+  source_ref: 12.2.2
+  level: '2'

@@ -1,0 +1,9 @@
+uid: INT-0011
+type: intent
+status: approved
+title: C11 — Adversarial Robustness
+text: This chapter addresses keeping AI systems reliable and abuse-resistant when facing evasion,
+  inference, extraction, or poisoning attacks.
+normative: false
+attrs:
+  source_ref: C11

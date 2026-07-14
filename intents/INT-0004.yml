@@ -1,0 +1,9 @@
+uid: INT-0004
+type: intent
+status: approved
+title: C4 — Infrastructure, Configuration & Deployment Security
+text: This chapter addresses hardening AI-specific infrastructure components against model theft,
+  data leakage, and cross-tenant contamination.
+normative: false
+attrs:
+  source_ref: C4

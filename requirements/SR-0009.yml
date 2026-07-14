@@ -1,0 +1,12 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: AISVS 1.3.1
+text: Verify that training and fine-tuning pipelines implement poisoning detection techniques
+  to identify potential data poisoning or unintentional corruption in training data.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: 1.3.1
+  level: '2'

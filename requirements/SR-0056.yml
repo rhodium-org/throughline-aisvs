@@ -1,0 +1,12 @@
+uid: SR-0056
+type: system_requirement
+status: approved
+title: AISVS 5.1.2
+text: Verify that AI agents in federated or multi-system deployments authenticate using short-lived,
+  minimal-scoped, cryptographically signed tokens.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: 5.1.2
+  level: '3'

@@ -1,0 +1,11 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: AISVS 1.1.3
+text: Verify that data integrity is provided when training data is stored and transferred.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: 1.1.3
+  level: '2'

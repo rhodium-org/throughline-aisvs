@@ -1,0 +1,11 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: AISVS 2.1.1
+text: Verify that input normalization is applied before tokenization or embedding.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 2.1.1
+  level: '1'

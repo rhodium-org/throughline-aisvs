@@ -1,0 +1,12 @@
+uid: SR-0127
+type: system_requirement
+status: approved
+title: AISVS 9.5.6
+text: Verify that long-running agent sessions re-evaluate current backend authorization policy
+  on every privileged action.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: 9.5.6
+  level: '3'

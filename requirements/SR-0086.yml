@@ -1,0 +1,12 @@
+uid: SR-0086
+type: system_requirement
+status: approved
+title: AISVS 8.1.1
+text: Verify that vector identifiers and namespaces enforce uniqueness per tenant and prevent
+  cross-tenant collisions.
+links:
+- target: UR-0023
+  type: implements
+attrs:
+  source_ref: 8.1.1
+  level: '1'

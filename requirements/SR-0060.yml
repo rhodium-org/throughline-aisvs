@@ -1,0 +1,12 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: AISVS 5.2.4
+text: Verify that post-inference filtering mechanisms prevent responses from including data
+  that the requester is not authorized to receive.
+links:
+- target: UR-0015
+  type: implements
+attrs:
+  source_ref: 5.2.4
+  level: '2'

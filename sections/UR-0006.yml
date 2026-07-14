@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: C3.1 — Model Authorization & Integrity
+text: Model Authorization & Integrity
+rationale: Only authorized models with verified integrity should reach production environments.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C3.1

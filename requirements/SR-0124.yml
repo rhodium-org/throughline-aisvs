@@ -1,0 +1,12 @@
+uid: SR-0124
+type: system_requirement
+status: approved
+title: AISVS 9.5.3
+text: Verify that all access control decisions are enforced by application logic or a policy
+  engine, never by the AI model itself.
+links:
+- target: UR-0030
+  type: implements
+attrs:
+  source_ref: 9.5.3
+  level: '2'

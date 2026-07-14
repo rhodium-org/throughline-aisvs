@@ -1,0 +1,12 @@
+uid: SR-0103
+type: system_requirement
+status: approved
+title: AISVS 9.2.4
+text: Verify that the agent runtime enforces reversibility classifications by blocking, requiring
+  approval, or restricting actions based on their impact and ability to be reversed.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.4
+  level: '2'

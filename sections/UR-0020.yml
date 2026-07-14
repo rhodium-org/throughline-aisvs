@@ -1,0 +1,12 @@
+uid: UR-0020
+type: user_requirement
+status: approved
+title: C7.2 — Hallucination Detection & Mitigation
+text: Hallucination Detection & Mitigation
+rationale: Potentially inaccurate or fabricated content must be detected so unreliable outputs
+  do not reach users or downstream systems.
+links:
+- target: INT-0007
+  type: derives_from
+attrs:
+  source_ref: C7.2

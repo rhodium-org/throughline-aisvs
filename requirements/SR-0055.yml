@@ -1,0 +1,12 @@
+uid: SR-0055
+type: system_requirement
+status: approved
+title: AISVS 5.1.1
+text: Verify that high-risk AI operations (model deployment, weight export, training data access,
+  production configuration changes) require step-up authentication.
+links:
+- target: UR-0014
+  type: implements
+attrs:
+  source_ref: 5.1.1
+  level: '3'

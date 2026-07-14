@@ -1,0 +1,11 @@
+uid: UR-0032
+type: user_requirement
+status: approved
+title: C10.1 — Component Integrity
+text: Component Integrity
+rationale: Only trusted MCP components must be used, and locally launched servers must be secured.
+links:
+- target: INT-0010
+  type: derives_from
+attrs:
+  source_ref: C10.1

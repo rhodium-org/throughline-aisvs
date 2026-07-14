@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: AISVS 2.1.7
+text: Verify that reserved special tokens are encoded as literal characters and cannot be injected
+  into the model context.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 2.1.7
+  level: '2'

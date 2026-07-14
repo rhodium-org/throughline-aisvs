@@ -1,0 +1,12 @@
+uid: SR-0107
+type: system_requirement
+status: approved
+title: AISVS 9.2.8
+text: Verify that approvals are cryptographically bound to action parameters, requester identity,
+  execution context, and a unique single-use nonce.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.8
+  level: '3'

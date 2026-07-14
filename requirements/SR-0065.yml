@@ -1,0 +1,13 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: AISVS 5.3.2
+text: Verify that one tenant cannot influence or observe another tenant's operations through
+  shared compute resources. Satisfying this requirement typically requires hardware partitioning,
+  confidential computing, or dedicated per-tenant compute allocation.
+links:
+- target: UR-0016
+  type: implements
+attrs:
+  source_ref: 5.3.2
+  level: '3'

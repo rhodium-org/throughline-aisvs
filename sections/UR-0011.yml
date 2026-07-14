@@ -1,0 +1,12 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: C4.1 — AI Workload Sandboxing & Validation
+text: AI Workload Sandboxing & Validation
+rationale: Untrusted AI models must be isolated in secure sandboxes, and sensitive AI workloads
+  protected using trusted execution environments (TEEs) and confidential computing technologies.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: C4.1

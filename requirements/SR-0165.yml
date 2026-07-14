@@ -1,0 +1,12 @@
+uid: SR-0165
+type: system_requirement
+status: approved
+title: AISVS 11.3.2
+text: Verify that raw model outputs are not directly exposed beyond the application backend,
+  and that externally visible responses are calibrated to the extraction risk level.
+links:
+- target: UR-0038
+  type: implements
+attrs:
+  source_ref: 11.3.2
+  level: '2'

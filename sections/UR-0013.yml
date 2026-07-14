@@ -1,0 +1,12 @@
+uid: UR-0013
+type: user_requirement
+status: approved
+title: C4.3 — Edge & Distributed AI Security
+text: Edge & Distributed AI Security
+rationale: Distributed AI deployments, including edge computing, federated learning, and multi-site
+  architectures, must be secured.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: C4.3

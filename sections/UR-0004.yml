@@ -1,0 +1,12 @@
+uid: UR-0004
+type: user_requirement
+status: approved
+title: C2.1 — Prompt Injection Defenses
+text: Prompt Injection Defenses
+rationale: Prompt injection is one of the top risks for AI systems, and defending against it
+  requires a combination of pattern filters, data classifiers, and instruction hierarchy enforcement.
+links:
+- target: INT-0002
+  type: derives_from
+attrs:
+  source_ref: C2.1

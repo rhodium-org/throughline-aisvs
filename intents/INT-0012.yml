@@ -1,0 +1,9 @@
+uid: INT-0012
+type: intent
+status: approved
+title: C12 — Monitoring, Logging & Anomaly Detection
+text: This chapter addresses real-time and forensic visibility into what the model and other
+  AI components see, do, and return, so that AI-specific threats can be detected and triaged.
+normative: false
+attrs:
+  source_ref: C12

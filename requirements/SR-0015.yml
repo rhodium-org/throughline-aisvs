@@ -1,0 +1,13 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: AISVS 2.1.2
+text: Verify that encoding and representation smuggling in inputs is detected and mitigated.
+  Approved mitigations include canonicalization, strict schema validation, policy-based rejection,
+  or explicit marking.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 2.1.2
+  level: '1'

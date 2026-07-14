@@ -1,0 +1,11 @@
+uid: SR-0084
+type: system_requirement
+status: approved
+title: AISVS 7.4.3
+text: Verify that claims in a RAG response can be traced to the retrieved chunk.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: 7.4.3
+  level: '2'

@@ -1,0 +1,12 @@
+uid: SR-0141
+type: system_requirement
+status: approved
+title: AISVS 10.3.1
+text: Verify that authenticated, encrypted streamable HTTP is used for MCP transport for remote
+  services.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: 10.3.1
+  level: '1'

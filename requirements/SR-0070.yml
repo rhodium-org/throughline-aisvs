@@ -1,0 +1,12 @@
+uid: SR-0070
+type: system_requirement
+status: approved
+title: AISVS 6.2.1
+text: Verify that every model artifact publishes a version-controlled, machine-readable AI BOM
+  listing datasets, weights, licenses, and data-origin statements.
+links:
+- target: UR-0018
+  type: implements
+attrs:
+  source_ref: 6.2.1
+  level: '1'

@@ -1,0 +1,12 @@
+uid: SR-0180
+type: system_requirement
+status: approved
+title: AISVS 12.2.6
+text: Verify that LLM API traffic is monitored for covert-channel indicators and communication
+  signatures to identify malware and command-and-control (C2) activity.
+links:
+- target: UR-0041
+  type: implements
+attrs:
+  source_ref: 12.2.6
+  level: '3'

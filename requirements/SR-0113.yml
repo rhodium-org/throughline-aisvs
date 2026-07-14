@@ -1,0 +1,12 @@
+uid: SR-0113
+type: system_requirement
+status: approved
+title: AISVS 9.3.4
+text: Verify that the runtime enforces the privileges, resource limits, and output-validation
+  requirements declared in tool manifests.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: 9.3.4
+  level: '2'

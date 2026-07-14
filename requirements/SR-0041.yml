@@ -1,0 +1,11 @@
+uid: SR-0041
+type: system_requirement
+status: approved
+title: AISVS 4.1.1
+text: Verify that AI models execute in isolated sandboxes.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: 4.1.1
+  level: '1'

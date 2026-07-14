@@ -1,0 +1,11 @@
+uid: UR-0034
+type: user_requirement
+status: approved
+title: C10.3 — Secure Transport
+text: Secure Transport
+rationale: MCP communications must be secured following protocol best practices.
+links:
+- target: INT-0010
+  type: derives_from
+attrs:
+  source_ref: C10.3

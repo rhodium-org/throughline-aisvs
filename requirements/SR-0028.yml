@@ -1,0 +1,12 @@
+uid: SR-0028
+type: system_requirement
+status: approved
+title: AISVS 3.1.3
+text: Verify that model cryptographic signatures are verified at deployment admission and on
+  load.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: 3.1.3
+  level: '2'

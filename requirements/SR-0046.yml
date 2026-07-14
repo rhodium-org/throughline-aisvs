@@ -1,0 +1,12 @@
+uid: SR-0046
+type: system_requirement
+status: approved
+title: AISVS 4.2.2
+text: Verify that execution within a trusted execution environment (TEE) provides hardware-enforced
+  isolation, memory encryption, and integrity protection.
+links:
+- target: UR-0012
+  type: implements
+attrs:
+  source_ref: 4.2.2
+  level: '3'

@@ -1,0 +1,9 @@
+uid: INT-0005
+type: intent
+status: approved
+title: C5 — Access Control & Identity for AI Components & Users
+text: This chapter addresses access control challenges that AI systems introduce beyond traditional
+  application security.
+normative: false
+attrs:
+  source_ref: C5

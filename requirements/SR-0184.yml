@@ -1,0 +1,12 @@
+uid: SR-0184
+type: system_requirement
+status: approved
+title: AISVS 12.3.4
+text: Verify that unexplained behavioral shifts are distinguished from gradual, expected operational
+  drift.
+links:
+- target: UR-0042
+  type: implements
+attrs:
+  source_ref: 12.3.4
+  level: '3'

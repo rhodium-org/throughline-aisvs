@@ -1,0 +1,11 @@
+uid: SR-0085
+type: system_requirement
+status: approved
+title: AISVS 7.4.4
+text: Verify that generated media is watermarked to prove it was AI-generated.
+links:
+- target: UR-0022
+  type: implements
+attrs:
+  source_ref: 7.4.4
+  level: '3'

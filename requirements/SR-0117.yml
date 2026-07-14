@@ -1,0 +1,11 @@
+uid: SR-0117
+type: system_requirement
+status: approved
+title: AISVS 9.3.8
+text: Verify that policy violations trigger automated tool containment.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: 9.3.8
+  level: '3'

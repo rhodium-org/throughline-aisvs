@@ -1,0 +1,12 @@
+uid: UR-0021
+type: user_requirement
+status: approved
+title: C7.3 — Output Safety
+text: Output Safety
+rationale: Technical controls must detect and remove unsafe content before it is shown to the
+  user.
+links:
+- target: INT-0007
+  type: derives_from
+attrs:
+  source_ref: C7.3

@@ -1,0 +1,12 @@
+uid: SR-0175
+type: system_requirement
+status: approved
+title: AISVS 12.2.1
+text: Verify that the system detects and alerts on known jailbreak patterns, prompt injection
+  attempts, and adversarial inputs.
+links:
+- target: UR-0041
+  type: implements
+attrs:
+  source_ref: 12.2.1
+  level: '1'

@@ -1,0 +1,13 @@
+uid: SR-0051
+type: system_requirement
+status: approved
+title: AISVS 4.3.2
+text: Verify that models deployed to edge or mobile devices are cryptographically signed during
+  packaging, and that the on-device runtime validates these signatures or checksums before loading
+  or inference.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: 4.3.2
+  level: '2'

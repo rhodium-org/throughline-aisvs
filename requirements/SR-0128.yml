@@ -1,0 +1,12 @@
+uid: SR-0128
+type: system_requirement
+status: approved
+title: AISVS 9.6.1
+text: Verify that a manual kill-switch mechanism exists to immediately halt AI model inference
+  and outputs.
+links:
+- target: UR-0031
+  type: implements
+attrs:
+  source_ref: 9.6.1
+  level: '1'

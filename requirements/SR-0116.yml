@@ -1,0 +1,12 @@
+uid: SR-0116
+type: system_requirement
+status: approved
+title: AISVS 9.3.7
+text: Verify that external resources named in model output are verified against an approved
+  allow-list or registry before the agent installs or invokes them.
+links:
+- target: UR-0028
+  type: implements
+attrs:
+  source_ref: 9.3.7
+  level: '2'

@@ -1,0 +1,12 @@
+uid: UR-0042
+type: user_requirement
+status: approved
+title: C12.3 — Model, Data, and Performance Drift Detection
+text: Model, Data, and Performance Drift Detection
+rationale: Drift and degradation across model outputs, input distributions, and data schemas
+  must be monitored to identify quality regressions and security-relevant behavioral shifts.
+links:
+- target: INT-0012
+  type: derives_from
+attrs:
+  source_ref: C12.3

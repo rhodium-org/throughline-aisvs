@@ -1,0 +1,12 @@
+uid: UR-0040
+type: user_requirement
+status: approved
+title: C12.1 — Request & Response Logging
+text: Request & Response Logging
+rationale: AI requests and responses must be logged to create an audit trail and support incident
+  response.
+links:
+- target: INT-0012
+  type: derives_from
+attrs:
+  source_ref: C12.1

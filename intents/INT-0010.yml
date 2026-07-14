@@ -1,0 +1,9 @@
+uid: INT-0010
+type: intent
+status: approved
+title: C10 — Model Context Protocol (MCP) Security
+text: This chapter addresses secure discovery, authentication, authorization, transport, and
+  use of MCP-based tool and resource integrations.
+normative: false
+attrs:
+  source_ref: C10

@@ -1,0 +1,9 @@
+uid: INT-0001
+type: intent
+status: approved
+title: C1 — Training Data Integrity & Traceability
+text: This chapter addresses protecting the integrity and traceability of training data as it
+  is sourced, handled, and maintained.
+normative: false
+attrs:
+  source_ref: C1

@@ -1,0 +1,12 @@
+uid: SR-0145
+type: system_requirement
+status: approved
+title: AISVS 10.3.5
+text: Verify that access tokens between the MCP client and server are sender-constrained using
+  mTLS or DPoP.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: 10.3.5
+  level: '3'

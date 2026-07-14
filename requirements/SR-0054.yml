@@ -1,0 +1,13 @@
+uid: SR-0054
+type: system_requirement
+status: approved
+title: AISVS 4.3.5
+text: Verify that models packaged within mobile, IoT, or embedded applications are encrypted
+  at rest, and decrypted only inside a trusted runtime or secure enclave, preventing direct
+  extraction from the app package or filesystem.
+links:
+- target: UR-0013
+  type: implements
+attrs:
+  source_ref: 4.3.5
+  level: '3'

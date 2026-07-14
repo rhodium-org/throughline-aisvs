@@ -1,0 +1,11 @@
+uid: UR-0030
+type: user_requirement
+status: approved
+title: C9.5 — Agent Authorization, Delegation, and Continuous Enforcement
+text: Agent Authorization, Delegation, and Continuous Enforcement
+rationale: Every action must be authorized at execution time and constrained by scope.
+links:
+- target: INT-0009
+  type: derives_from
+attrs:
+  source_ref: C9.5

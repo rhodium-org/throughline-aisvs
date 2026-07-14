@@ -1,0 +1,12 @@
+uid: SR-0067
+type: system_requirement
+status: approved
+title: AISVS 6.1.2
+text: Verify that model weights, datasets, and fine-tuning adapters are downloaded only from
+  approved sources.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: 6.1.2
+  level: '1'

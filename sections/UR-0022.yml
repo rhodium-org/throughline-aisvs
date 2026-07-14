@@ -1,0 +1,12 @@
+uid: UR-0022
+type: user_requirement
+status: approved
+title: C7.4 — Source Attribution & Citation Integrity
+text: Source Attribution & Citation Integrity
+rationale: RAG-grounded outputs must be traceable to their source documents, with cited claims
+  verifiably supported by retrieved content.
+links:
+- target: INT-0007
+  type: derives_from
+attrs:
+  source_ref: C7.4

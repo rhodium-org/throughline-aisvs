@@ -1,0 +1,11 @@
+uid: SR-0189
+type: system_requirement
+status: approved
+title: AISVS 12.5.2
+text: Verify that all labeling activities are recorded in logs.
+links:
+- target: UR-0044
+  type: implements
+attrs:
+  source_ref: 12.5.2
+  level: '1'

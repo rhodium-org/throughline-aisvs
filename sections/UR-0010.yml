@@ -1,0 +1,13 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: C3.5 — Pipeline Fine-Tuning
+text: Pipeline Fine-Tuning
+rationale: Fine-tuning pipelines are high-privilege operations that can alter deployed model
+  behavior at scale. Multi-stage pipelines compound this risk because a compromise at any intermediate
+  stage produces a subtly altered artifact that subsequent stages accept.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C3.5

@@ -1,0 +1,12 @@
+uid: UR-0024
+type: user_requirement
+status: approved
+title: C8.2 — Embedding Sanitization & Validation
+text: Embedding Sanitization & Validation
+rationale: Content must be pre-screened before vectorization, and memory writes treated as untrusted
+  input, to prevent ingestion of unsafe payloads.
+links:
+- target: INT-0008
+  type: derives_from
+attrs:
+  source_ref: C8.2

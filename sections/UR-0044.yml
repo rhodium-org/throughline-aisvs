@@ -1,0 +1,12 @@
+uid: UR-0044
+type: user_requirement
+status: approved
+title: C12.5 — Training Data & Model Lifecycle Audit
+text: Training Data & Model Lifecycle Audit
+rationale: The provenance and change history of training data, model artifacts, and knowledge
+  sources must be auditable throughout the AI development lifecycle.
+links:
+- target: INT-0012
+  type: derives_from
+attrs:
+  source_ref: C12.5

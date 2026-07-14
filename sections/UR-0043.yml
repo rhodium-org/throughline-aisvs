@@ -1,0 +1,13 @@
+uid: UR-0043
+type: user_requirement
+status: approved
+title: C12.4 — Proactive Security Behavior Monitoring
+text: Proactive Security Behavior Monitoring
+rationale: Security threats arising from proactive (agent-initiated) behavior must be detected
+  and prevented, including pre-execution validation, behavior pattern analysis, and audit trails
+  for approval of security-critical actions.
+links:
+- target: INT-0012
+  type: derives_from
+attrs:
+  source_ref: C12.4

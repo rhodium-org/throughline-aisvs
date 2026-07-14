@@ -1,0 +1,9 @@
+uid: INT-0007
+type: intent
+status: approved
+title: C7 — Model Behavior, Output Control & Safety Assurance
+text: This chapter addresses constraining, validating, and monitoring model outputs so that
+  unsafe, malformed, or high-risk responses cannot reach users or downstream systems.
+normative: false
+attrs:
+  source_ref: C7

@@ -1,0 +1,12 @@
+uid: SR-0143
+type: system_requirement
+status: approved
+title: AISVS 10.3.3
+text: Verify that MCP servers validate both the Origin header and the Host header independently
+  on all HTTP-based transports to prevent DNS rebinding attacks.
+links:
+- target: UR-0034
+  type: implements
+attrs:
+  source_ref: 10.3.3
+  level: '2'

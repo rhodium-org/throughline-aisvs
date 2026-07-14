@@ -1,0 +1,11 @@
+uid: UR-0009
+type: user_requirement
+status: approved
+title: C3.4 — Secure Development Practices
+text: Secure Development Practices
+rationale: Model development environments must be separated from production environments.
+links:
+- target: INT-0003
+  type: derives_from
+attrs:
+  source_ref: C3.4

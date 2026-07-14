@@ -1,0 +1,13 @@
+uid: SR-0022
+type: system_requirement
+status: approved
+title: AISVS 2.2.1
+text: Verify that every prompt is scored by a content classifier for violence, self-harm, hate,
+  and sexual content against configurable thresholds. Prompts that exceed those thresholds are
+  rejected or sanitized before reaching the model context.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: 2.2.1
+  level: '1'

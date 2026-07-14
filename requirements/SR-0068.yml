@@ -1,0 +1,11 @@
+uid: SR-0068
+type: system_requirement
+status: approved
+title: AISVS 6.1.3
+text: Verify that every third-party model artifact can be integrity-verified.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: 6.1.3
+  level: '2'

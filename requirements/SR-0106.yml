@@ -1,0 +1,12 @@
+uid: SR-0106
+type: system_requirement
+status: approved
+title: AISVS 9.2.7
+text: Verify that the AI-augmented review mechanism is protected against manipulation by adversarial
+  inputs, and cannot be overridden or bypassed through prompt injection.
+links:
+- target: UR-0027
+  type: implements
+attrs:
+  source_ref: 9.2.7
+  level: '2'

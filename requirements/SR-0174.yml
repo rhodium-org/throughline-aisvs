@@ -1,0 +1,12 @@
+uid: SR-0174
+type: system_requirement
+status: approved
+title: AISVS 12.1.4
+text: Verify that RAG pipeline retrieval events are logged, including the query, documents retrieved,
+  and knowledge source.
+links:
+- target: UR-0040
+  type: implements
+attrs:
+  source_ref: 12.1.4
+  level: '2'

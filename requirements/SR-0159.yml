@@ -1,0 +1,11 @@
+uid: SR-0159
+type: system_requirement
+status: approved
+title: AISVS 11.2.1
+text: Verify that model-inferred sensitive attributes are not directly returned in outputs.
+links:
+- target: UR-0037
+  type: implements
+attrs:
+  source_ref: 11.2.1
+  level: '1'

@@ -1,0 +1,12 @@
+uid: SR-0073
+type: system_requirement
+status: approved
+title: AISVS 7.1.1
+text: Verify that the application validates all model outputs against a defined schema and rejects
+  any output that does not match.
+links:
+- target: UR-0019
+  type: implements
+attrs:
+  source_ref: 7.1.1
+  level: '1'

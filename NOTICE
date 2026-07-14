@@ -1,0 +1,28 @@
+standard-aisvs
+Copyright 2026 Time Back Solutions Limited
+
+This product includes work developed by Time Back Solutions Limited.
+
+The repository's structure, tooling and configuration are licensed under the Apache
+License, Version 2.0. See the LICENSE file for the full terms.
+
+This repository is a throughline *source*: a requirements graph, not a program. It
+re-expresses the OWASP Artificial Intelligence Security Verification Standard (AISVS) 1.0
+as a grounded IDD graph so consuming projects can compose it with throughline-compose.
+
+The AISVS clause text (each system_requirement's `text`), the per-category Control
+Objectives (each intent's `text`) and the sub-section descriptions (each user_requirement's
+`rationale`) are taken from:
+
+  - OWASP AISVS — https://github.com/OWASP/AISVS
+  - OWASP AISVS project page — https://owasp.org/www-project-artificial-intelligence-security-verification-standard/
+
+That content is © the OWASP Foundation and its contributors and is used under the
+Creative Commons Attribution-ShareAlike 4.0 International licence
+(CC BY-SA 4.0 — https://creativecommons.org/licenses/by-sa/4.0/). Under ShareAlike, the
+AISVS-derived content in this repository (the item `text`/`rationale` fields) is likewise
+made available under CC BY-SA 4.0, with attribution to OWASP. This project's own additions
+— the throughline graph structure, UID allocation, generator and configuration — are
+covered by the Apache-2.0 licence above and are clearly additional to the OWASP content.
+
+See https://github.com/OWASP/AISVS for the authoritative source.

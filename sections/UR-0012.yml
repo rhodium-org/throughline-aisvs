@@ -1,0 +1,12 @@
+uid: UR-0012
+type: user_requirement
+status: approved
+title: C4.2 — AI Hardware Security
+text: AI Hardware Security
+rationale: AI-specific hardware components, including GPUs, TPUs, and specialized AI accelerators,
+  must be secured.
+links:
+- target: INT-0004
+  type: derives_from
+attrs:
+  source_ref: C4.2

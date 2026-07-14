@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: AISVS 2.1.5
+text: Verify that the system implements a character set restriction for all inputs. The restriction
+  must use an allow-list approach that permits only characters that are explicitly required.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: 2.1.5
+  level: '1'

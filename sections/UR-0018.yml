@@ -1,0 +1,12 @@
+uid: UR-0018
+type: user_requirement
+status: approved
+title: C6.2 — AI BOM & Supply Chain Monitoring
+text: AI BOM & Supply Chain Monitoring
+rationale: Detailed AI-specific bills of materials must be generated and signed, with readiness
+  to respond to supply chain compromise events.
+links:
+- target: INT-0006
+  type: derives_from
+attrs:
+  source_ref: C6.2

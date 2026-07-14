@@ -1,0 +1,12 @@
+uid: SR-0027
+type: system_requirement
+status: approved
+title: AISVS 3.1.2
+text: Verify that all model artifacts (weights, configurations, tokenizers, base models, fine-tunes,
+  adapters, and safety/policy models) are cryptographically signed by authorized entities.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: 3.1.2
+  level: '2'

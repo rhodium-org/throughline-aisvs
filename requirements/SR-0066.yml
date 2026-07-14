@@ -1,0 +1,11 @@
+uid: SR-0066
+type: system_requirement
+status: approved
+title: AISVS 6.1.1
+text: Verify that models are scanned for malicious code before import.
+links:
+- target: UR-0017
+  type: implements
+attrs:
+  source_ref: 6.1.1
+  level: '1'

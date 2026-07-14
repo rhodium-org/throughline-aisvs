@@ -1,0 +1,13 @@
+uid: UR-0037
+type: user_requirement
+status: approved
+title: C11.2 — Membership-Inference and Model-Inversion Mitigation
+text: Membership-Inference and Model-Inversion Mitigation
+rationale: The ability to determine whether a specific record was in the training data must
+  be limited, and reconstruction of private training data or sensitive attributes from model
+  outputs prevented.
+links:
+- target: INT-0011
+  type: derives_from
+attrs:
+  source_ref: C11.2

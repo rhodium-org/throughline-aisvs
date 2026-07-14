@@ -1,0 +1,12 @@
+uid: SR-0146
+type: system_requirement
+status: approved
+title: AISVS 10.4.1
+text: Verify that MCP tools/list and tools/call responses are validated against their declared
+  schemas before being injected into the model context.
+links:
+- target: UR-0035
+  type: implements
+attrs:
+  source_ref: 10.4.1
+  level: '1'

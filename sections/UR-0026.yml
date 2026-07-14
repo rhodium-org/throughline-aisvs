@@ -1,0 +1,12 @@
+uid: UR-0026
+type: user_requirement
+status: approved
+title: C9.1 — Execution Budgets, Loop Control, and Circuit Breakers
+text: Execution Budgets, Loop Control, and Circuit Breakers
+rationale: Runtime expansion (recursion, concurrency, cost) must be bounded, with safe halting
+  on runaway behavior.
+links:
+- target: INT-0009
+  type: derives_from
+attrs:
+  source_ref: C9.1
