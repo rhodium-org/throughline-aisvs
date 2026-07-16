@@ -1,4 +1,4 @@
-# standard-aisvs
+# throughline-aisvs
 
 The **OWASP Artificial Intelligence Security Verification Standard (AISVS) 1.0** expressed
 as a [throughline](https://pypi.org/project/throughline/) **source** — a standalone,
@@ -71,7 +71,7 @@ repo or duplicate clauses per level:
 
 **Editions are git tags of this one repo.** `v1.0.0` tags the AISVS 1.0 edition; a future
 AISVS release would be `v2.0.0` on this same repo. A consumer pins `aisvs@v1.0.0`. This is
-the same editions-as-tags model as `standard-asvs` and `standard-wcag`.
+the same editions-as-tags model as `throughline-asvs` and `throughline-wcag`.
 
 ## Modelling conventions
 
@@ -90,7 +90,7 @@ In a consuming project's `throughline.toml`:
 
 ```toml
 [sources.aisvs]
-url = "https://github.com/rhodium-org/standard-aisvs"
+url = "https://github.com/timebacksolutions/throughline-aisvs"
 ref = "v1.0.0"
 ```
 
