@@ -30,6 +30,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Training data origin and security are critical to the trustworthiness of any AI system. Datasets must be sourced from verifiable origins, tracked across their full lifecycle, and protected against tampering, corruption, and poisoning so that unauthorized modification can be detected.
 
+*Derives from:* INT-0001
+
 **source_ref**: C1.1
 <!-- tl:end -->
 
@@ -52,6 +54,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Labeling and annotation processes must be protected against unauthorized modification, data leakage, and integrity compromise. Annotation platforms should enforce access control, preserve auditability, and protect labeling artifacts and sensitive label content throughout the training pipeline.
 
+*Derives from:* INT-0001
+
 **source_ref**: C1.2
 <!-- tl:end -->
 
@@ -71,6 +75,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Training Data Quality and Security Assurance
 
 *Rationale:* Quality and security assurance controls help detect corruption, poisoning, labeling errors, and exploitable dataset patterns before they affect model behavior. Pipelines should combine automated validation, poisoning detection, label quality checks, and bias analysis.
+
+*Derives from:* INT-0001
 
 **source_ref**: C1.3
 <!-- tl:end -->
@@ -104,6 +110,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Prompt injection is one of the top risks for AI systems, and defending against it requires a combination of pattern filters, data classifiers, and instruction hierarchy enforcement.
 
+*Derives from:* INT-0002
+
 **source_ref**: C2.1
 <!-- tl:end -->
 
@@ -128,6 +136,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Content & Policy Screening
 
 *Rationale:* Syntactically valid prompts may still request disallowed content such as policy-violating instructions, harmful material, or restricted information. Input-side content screening prevents such prompts from reaching the model.
+
+*Derives from:* INT-0002
 
 **source_ref**: C2.2
 <!-- tl:end -->
@@ -160,6 +170,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Only authorized models with verified integrity should reach production environments.
 
+*Derives from:* INT-0003
+
 **source_ref**: C3.1
 <!-- tl:end -->
 
@@ -179,6 +191,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Model Validation & Testing
 
 *Rationale:* Models must pass defined security and safety validations before deployment.
+
+*Derives from:* INT-0003
 
 **source_ref**: C3.2
 <!-- tl:end -->
@@ -200,6 +214,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Model deployments must be controlled, monitored, and reversible to support lifecycle management.
 
+*Derives from:* INT-0003
+
 **source_ref**: C3.3
 <!-- tl:end -->
 
@@ -220,6 +236,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Model development environments must be separated from production environments.
 
+*Derives from:* INT-0003
+
 **source_ref**: C3.4
 <!-- tl:end -->
 
@@ -238,6 +256,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Pipeline Fine-Tuning
 
 *Rationale:* Fine-tuning pipelines are high-privilege operations that can alter deployed model behavior at scale. Multi-stage pipelines compound this risk because a compromise at any intermediate stage produces a subtly altered artifact that subsequent stages accept.
+
+*Derives from:* INT-0003
 
 **source_ref**: C3.5
 <!-- tl:end -->
@@ -270,6 +290,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Untrusted AI models must be isolated in secure sandboxes, and sensitive AI workloads protected using trusted execution environments (TEEs) and confidential computing technologies.
 
+*Derives from:* INT-0004
+
 **source_ref**: C4.1
 <!-- tl:end -->
 
@@ -290,6 +312,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > AI Hardware Security
 
 *Rationale:* AI-specific hardware components, including GPUs, TPUs, and specialized AI accelerators, must be secured.
+
+*Derives from:* INT-0004
 
 **source_ref**: C4.2
 <!-- tl:end -->
@@ -312,6 +336,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Edge & Distributed AI Security
 
 *Rationale:* Distributed AI deployments, including edge computing, federated learning, and multi-site architectures, must be secured.
+
+*Derives from:* INT-0004
 
 **source_ref**: C4.3
 <!-- tl:end -->
@@ -345,6 +371,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* AI agents and human users accessing resources must be properly authenticated and authorized for their level of access.
 
+*Derives from:* INT-0005
+
 **source_ref**: C5.1
 <!-- tl:end -->
 
@@ -363,6 +391,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > AI Resource Authorization & Classification
 
 *Rationale:* The caller's authorization context must be enforced through AI-specific query pipelines (RAG retrieval, embedding lookups, inference chains) so the system does not return data the caller is not entitled to access.
+
+*Derives from:* INT-0005
 
 **source_ref**: C5.2
 <!-- tl:end -->
@@ -387,6 +417,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Multi-Tenant Isolation
 
 *Rationale:* Cross-tenant information leakage through AI-specific shared infrastructure, such as inference caches and shared model state, must be prevented.
+
+*Derives from:* INT-0005
 
 **source_ref**: C5.3
 <!-- tl:end -->
@@ -417,6 +449,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Third-party model origins must be authenticated and checked for hidden behavior before fine-tuning or deployment, and AI artifacts should be downloaded only from approved sources.
 
+*Derives from:* INT-0006
+
 **source_ref**: C6.1
 <!-- tl:end -->
 
@@ -437,6 +471,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > AI BOM & Supply Chain Monitoring
 
 *Rationale:* Detailed AI-specific bills of materials must be generated and signed, with readiness to respond to supply chain compromise events.
+
+*Derives from:* INT-0006
 
 **source_ref**: C6.2
 <!-- tl:end -->
@@ -468,6 +504,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Model outputs must be structured and validated to reduce downstream injection risk.
 
+*Derives from:* INT-0007
+
 **source_ref**: C7.1
 <!-- tl:end -->
 
@@ -486,6 +524,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Hallucination Detection & Mitigation
 
 *Rationale:* Potentially inaccurate or fabricated content must be detected so unreliable outputs do not reach users or downstream systems.
+
+*Derives from:* INT-0007
 
 **source_ref**: C7.2
 <!-- tl:end -->
@@ -507,6 +547,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Technical controls must detect and remove unsafe content before it is shown to the user.
 
+*Derives from:* INT-0007
+
 **source_ref**: C7.3
 <!-- tl:end -->
 
@@ -527,6 +569,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Source Attribution & Citation Integrity
 
 *Rationale:* RAG-grounded outputs must be traceable to their source documents, with cited claims verifiably supported by retrieved content.
+
+*Derives from:* INT-0007
 
 **source_ref**: C7.4
 <!-- tl:end -->
@@ -559,6 +603,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Fine-grained access controls and query-time scope enforcement must be applied to every vector collection.
 
+*Derives from:* INT-0008
+
 **source_ref**: C8.1
 <!-- tl:end -->
 
@@ -578,6 +624,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Embedding Sanitization & Validation
 
 *Rationale:* Content must be pre-screened before vectorization, and memory writes treated as untrusted input, to prevent ingestion of unsafe payloads.
+
+*Derives from:* INT-0008
 
 **source_ref**: C8.2
 <!-- tl:end -->
@@ -600,6 +648,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Memory Expiry & Revocation
 
 *Rationale:* Retention and revocation must be explicit and enforceable for memory and RAG indices.
+
+*Derives from:* INT-0008
 
 **source_ref**: C8.3
 <!-- tl:end -->
@@ -631,6 +681,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Runtime expansion (recursion, concurrency, cost) must be bounded, with safe halting on runaway behavior.
 
+*Derives from:* INT-0009
+
 **source_ref**: C9.1
 <!-- tl:end -->
 
@@ -650,6 +702,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > High-Impact Action Approval and Irreversibility Controls
 
 *Rationale:* Privileged, high-impact, or hard-to-reverse agent actions must require trusted approval checkpoints.
+
+*Derives from:* INT-0009
 
 **source_ref**: C9.2
 <!-- tl:end -->
@@ -678,6 +732,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Tool and plugin execution, loading, and outputs must be constrained to prevent unauthorized system access and unsafe side effects.
 
+*Derives from:* INT-0009
+
 **source_ref**: C9.3
 <!-- tl:end -->
 
@@ -703,6 +759,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Every action must be attributable and every mutation detectable.
 
+*Derives from:* INT-0009
+
 **source_ref**: C9.4
 <!-- tl:end -->
 
@@ -723,6 +781,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Agent Authorization, Delegation, and Continuous Enforcement
 
 *Rationale:* Every action must be authorized at execution time and constrained by scope.
+
+*Derives from:* INT-0009
 
 **source_ref**: C9.5
 <!-- tl:end -->
@@ -746,6 +806,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Shutdown and Graceful Degradation
 
 *Rationale:* Shutdown and graceful degradation paths must remain under human control, with mechanisms that stay reliable and are exercised over time.
+
+*Derives from:* INT-0009
 
 **source_ref**: C9.6
 <!-- tl:end -->
@@ -777,6 +839,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Only trusted MCP components must be used, and locally launched servers must be secured.
 
+*Derives from:* INT-0010
+
 **source_ref**: C10.1
 <!-- tl:end -->
 
@@ -796,6 +860,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Authentication & Authorization
 
 *Rationale:* Callers must be authenticated and access to MCP servers authorized, following protocol best practices.
+
+*Derives from:* INT-0010
 
 **source_ref**: C10.2
 <!-- tl:end -->
@@ -821,6 +887,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* MCP communications must be secured following protocol best practices.
 
+*Derives from:* INT-0010
+
 **source_ref**: C10.3
 <!-- tl:end -->
 
@@ -842,6 +910,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Schema, Message, and Input Validation
 
 *Rationale:* Schema, message, and input validation must be enforced in both MCP servers and clients.
+
+*Derives from:* INT-0010
 
 **source_ref**: C10.4
 <!-- tl:end -->
@@ -878,6 +948,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Model resilience to manipulated inputs designed to cause misclassification or policy bypass must be increased, primarily through adversarial testing and robustness benchmarking.
 
+*Derives from:* INT-0011
+
 **source_ref**: C11.1
 <!-- tl:end -->
 
@@ -899,6 +971,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Membership-Inference and Model-Inversion Mitigation
 
 *Rationale:* The ability to determine whether a specific record was in the training data must be limited, and reconstruction of private training data or sensitive attributes from model outputs prevented.
+
+*Derives from:* INT-0011
 
 **source_ref**: C11.2
 <!-- tl:end -->
@@ -922,6 +996,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Unauthorized model cloning through API abuse must be detected and deterred using rate limiting, query-pattern analysis, and watermarking.
 
+*Derives from:* INT-0011
+
 **source_ref**: C11.3
 <!-- tl:end -->
 
@@ -942,6 +1018,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Model Runtime Anomaly Detection
 
 *Rationale:* Manipulated, backdoored, or adversarial data entering the model context at inference time via external sources must be identified and neutralized.
+
+*Derives from:* INT-0011
 
 **source_ref**: C11.4
 <!-- tl:end -->
@@ -973,6 +1051,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* AI requests and responses must be logged to create an audit trail and support incident response.
 
+*Derives from:* INT-0012
+
 **source_ref**: C12.1
 <!-- tl:end -->
 
@@ -993,6 +1073,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Detection and Alerting
 
 *Rationale:* AI-specific attack patterns (jailbreak, prompt injection, model extraction, multi-turn trajectory attacks, covert channels over LLM endpoints) must be detected, and security events enriched with AI-specific context so downstream detection and response systems can act on them.
+
+*Derives from:* INT-0012
 
 **source_ref**: C12.2
 <!-- tl:end -->
@@ -1017,6 +1099,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Drift and degradation across model outputs, input distributions, and data schemas must be monitored to identify quality regressions and security-relevant behavioral shifts.
 
+*Derives from:* INT-0012
+
 **source_ref**: C12.3
 <!-- tl:end -->
 
@@ -1038,6 +1122,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 
 *Rationale:* Security threats arising from proactive (agent-initiated) behavior must be detected and prevented, including pre-execution validation, behavior pattern analysis, and audit trails for approval of security-critical actions.
 
+*Derives from:* INT-0012
+
 **source_ref**: C12.4
 <!-- tl:end -->
 
@@ -1057,6 +1143,8 @@ level in `attrs.level` (1/2/3), so one graph carries all three profiles at once.
 > Training Data & Model Lifecycle Audit
 
 *Rationale:* The provenance and change history of training data, model artifacts, and knowledge sources must be auditable throughout the AI development lifecycle.
+
+*Derives from:* INT-0012
 
 **source_ref**: C12.5
 <!-- tl:end -->
