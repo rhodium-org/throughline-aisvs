@@ -1,3 +1,4 @@
 prefix: UR
 digits: 4
 title: Sections
+type: user_requirement
