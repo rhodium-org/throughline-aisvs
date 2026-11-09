@@ -1,9 +1,11 @@
 uid: SR-0024
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 2.2.3
-text: Verify that non-text inputs (image/video/audio) are checked for adversarial perturbations,
-  steganographic payloads, hidden or embedded content, or known attack patterns.
+text: Verify that non-text inputs (image/video/audio) are checked for adversarial
+  perturbations, steganographic payloads, hidden or embedded content, or known attack
+  patterns.
+normative: true
 links:
 - target: UR-0005
   type: implements

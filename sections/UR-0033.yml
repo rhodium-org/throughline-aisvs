@@ -1,10 +1,11 @@
 uid: UR-0033
 type: user_requirement
-status: approved
+status: proposed
 title: C10.2 — Authentication & Authorization
 text: Authentication & Authorization
-rationale: Callers must be authenticated and access to MCP servers authorized, following protocol
-  best practices.
+rationale: Callers must be authenticated and access to MCP servers authorized, following
+  protocol best practices.
+normative: true
 links:
 - target: INT-0010
   type: derives_from

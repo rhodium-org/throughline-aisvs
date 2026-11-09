@@ -1,9 +1,11 @@
 uid: UR-0035
 type: user_requirement
-status: approved
+status: proposed
 title: C10.4 — Schema, Message, and Input Validation
 text: Schema, Message, and Input Validation
-rationale: Schema, message, and input validation must be enforced in both MCP servers and clients.
+rationale: Schema, message, and input validation must be enforced in both MCP servers
+  and clients.
+normative: true
 links:
 - target: INT-0010
   type: derives_from

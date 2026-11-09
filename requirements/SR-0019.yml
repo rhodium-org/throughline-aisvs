@@ -1,10 +1,11 @@
 uid: SR-0019
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 2.1.6
-text: Verify that the system enforces an instruction hierarchy in which system and developer
-  messages override user instructions and other untrusted inputs, even after user instructions
-  have been processed.
+text: Verify that the system enforces an instruction hierarchy in which system and
+  developer messages override user instructions and other untrusted inputs, even
+  after user instructions have been processed.
+normative: true
 links:
 - target: UR-0004
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0160
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.2.2
-text: Verify that inference endpoints enforce per-principal and global rate limits sized to
-  the extraction threat model, and not solely as a generic API throttle.
+text: Verify that inference endpoints enforce per-principal and global rate limits
+  sized to the extraction threat model, and not solely as a generic API throttle.
+normative: true
 links:
 - target: UR-0037
   type: implements

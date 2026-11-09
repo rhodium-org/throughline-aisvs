@@ -1,9 +1,10 @@
 uid: SR-0102
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.2.3
-text: Verify that each high-impact action has a trusted reversibility classification, such as
-  read-only, reversible, externally reversible, or irreversible.
+text: Verify that each high-impact action has a trusted reversibility classification,
+  such as read-only, reversible, externally reversible, or irreversible.
+normative: true
 links:
 - target: UR-0027
   type: implements

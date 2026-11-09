@@ -1,9 +1,10 @@
 uid: SR-0090
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.2.2
-text: Verify that vectors that fall outside normal clustering patterns are flagged and quarantined
-  before entering production indices.
+text: Verify that vectors that fall outside normal clustering patterns are flagged
+  and quarantined before entering production indices.
+normative: true
 links:
 - target: UR-0024
   type: implements

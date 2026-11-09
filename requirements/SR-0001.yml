@@ -1,9 +1,10 @@
 uid: SR-0001
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 1.1.1
-text: Verify that training data includes only features, attributes, and fields required for
-  the model's stated purpose.
+text: Verify that training data includes only features, attributes, and fields required
+  for the model's stated purpose.
+normative: true
 links:
 - target: UR-0001
   type: implements

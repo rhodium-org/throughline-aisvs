@@ -1,8 +1,9 @@
 uid: SR-0095
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.3.2
 text: Verify that memory can be reset.
+normative: true
 links:
 - target: UR-0025
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0120
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.4.3
 text: Verify that agent identity credentials rotate on a defined schedule.
+normative: true
 links:
 - target: UR-0029
   type: implements

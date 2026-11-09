@@ -1,9 +1,10 @@
 uid: SR-0039
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.5.3
 text: Verify that in multi-stage fine-tuning pipelines, each stage's output is integrity-verified
   before it is consumed by the next stage.
+normative: true
 links:
 - target: UR-0010
   type: implements

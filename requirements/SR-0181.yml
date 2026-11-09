@@ -1,10 +1,12 @@
 uid: SR-0181
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.3.1
-text: Verify that data drift detection monitors input distribution changes that may impact model
-  performance, using statistically validated methods matched to the input data type (e.g., KS
-  test or PSI for tabular numeric features, embedding-distance metrics for text or image).
+text: Verify that data drift detection monitors input distribution changes that may
+  impact model performance, using statistically validated methods matched to the
+  input data type (e.g., KS test or PSI for tabular numeric features, embedding-distance
+  metrics for text or image).
+normative: true
 links:
 - target: UR-0042
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0059
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 5.2.3
-text: Verify that sensitive data is retrieved via retrieval pipelines (e.g., RAG queries, embedding
-  lookups) to prevent permanent storage in models.
+text: Verify that sensitive data is retrieved via retrieval pipelines (e.g., RAG
+  queries, embedding lookups) to prevent permanent storage in models.
+normative: true
 links:
 - target: UR-0015
   type: implements

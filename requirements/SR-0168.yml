@@ -1,9 +1,10 @@
 uid: SR-0168
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.4.1
-text: Verify that inputs from external or untrusted sources pass through anomaly detection before
-  model inference.
+text: Verify that inputs from external or untrusted sources pass through anomaly
+  detection before model inference.
+normative: true
 links:
 - target: UR-0039
   type: implements

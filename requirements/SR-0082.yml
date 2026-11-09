@@ -1,9 +1,10 @@
 uid: SR-0082
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.4.1
-text: Verify that responses generated using retrieval-augmented generation (RAG) include attribution
-  to the source documents.
+text: Verify that responses generated using retrieval-augmented generation (RAG)
+  include attribution to the source documents.
+normative: true
 links:
 - target: UR-0022
   type: implements

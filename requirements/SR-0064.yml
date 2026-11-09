@@ -1,9 +1,11 @@
 uid: SR-0064
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 5.3.1
-text: Verify that shared model serving infrastructure prevents one tenant's fine-tuning, inference,
-  or embedding operations from influencing or observing another tenant's operations.
+text: Verify that shared model serving infrastructure prevents one tenant's fine-tuning,
+  inference, or embedding operations from influencing or observing another tenant's
+  operations.
+normative: true
 links:
 - target: UR-0016
   type: implements

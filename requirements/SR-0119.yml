@@ -1,9 +1,10 @@
 uid: SR-0119
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.4.2
-text: Verify that agent-initiated actions are cryptographically bound to each step of the execution
-  chain for non-repudiation.
+text: Verify that agent-initiated actions are cryptographically bound to each step
+  of the execution chain for non-repudiation.
+normative: true
 links:
 - target: UR-0029
   type: implements

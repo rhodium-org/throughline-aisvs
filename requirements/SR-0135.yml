@@ -1,9 +1,10 @@
 uid: SR-0135
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.2
-text: Verify that MCP servers validate the presented access token's issuer, audience, expiration,
-  and scope claims in accordance with OAuth 2.1.
+text: Verify that MCP servers validate the presented access token's issuer, audience,
+  expiration, and scope claims in accordance with OAuth 2.1.
+normative: true
 links:
 - target: UR-0033
   type: implements

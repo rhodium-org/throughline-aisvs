@@ -1,11 +1,12 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: C2.2 — Content & Policy Screening
 text: Content & Policy Screening
-rationale: Syntactically valid prompts may still request disallowed content such as policy-violating
-  instructions, harmful material, or restricted information. Input-side content screening prevents
-  such prompts from reaching the model.
+rationale: Syntactically valid prompts may still request disallowed content such
+  as policy-violating instructions, harmful material, or restricted information.
+  Input-side content screening prevents such prompts from reaching the model.
+normative: true
 links:
 - target: INT-0002
   type: derives_from

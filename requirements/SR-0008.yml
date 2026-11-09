@@ -1,9 +1,10 @@
 uid: SR-0008
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 1.2.3
-text: Verify that sensitive information in labels is redacted, anonymized, or encrypted before
-  being used in any labeling artifact.
+text: Verify that sensitive information in labels is redacted, anonymized, or encrypted
+  before being used in any labeling artifact.
+normative: true
 links:
 - target: UR-0002
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0097
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.1.1
-text: Verify that per-tool quotas and timeouts (e.g., CPU, memory, disk, egress, and execution
-  time) are enforced.
+text: Verify that per-tool quotas and timeouts (e.g., CPU, memory, disk, egress,
+  and execution time) are enforced.
+normative: true
 links:
 - target: UR-0026
   type: implements

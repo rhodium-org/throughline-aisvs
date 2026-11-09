@@ -1,9 +1,10 @@
 uid: SR-0112
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.3.3
-text: Verify that tool manifests declare required privileges, resource limits, and output validation
-  requirements.
+text: Verify that tool manifests declare required privileges, resource limits, and
+  output validation requirements.
+normative: true
 links:
 - target: UR-0028
   type: implements

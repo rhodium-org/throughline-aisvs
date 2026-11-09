@@ -1,9 +1,10 @@
 uid: SR-0026
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.1.1
-text: Verify that a model registry maintains an inventory of all deployed model artifacts and
-  their origin.
+text: Verify that a model registry maintains an inventory of all deployed model artifacts
+  and their origin.
+normative: true
 links:
 - target: UR-0006
   type: implements

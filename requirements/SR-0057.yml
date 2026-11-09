@@ -1,9 +1,11 @@
 uid: SR-0057
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 5.2.1
-text: Verify that every AI resource (datasets, endpoints, vector collections, embedding indices,
-  compute instances) enforces access controls with explicit allow-lists and default-deny policies.
+text: Verify that every AI resource (datasets, endpoints, vector collections, embedding
+  indices, compute instances) enforces access controls with explicit allow-lists
+  and default-deny policies.
+normative: true
 links:
 - target: UR-0015
   type: implements

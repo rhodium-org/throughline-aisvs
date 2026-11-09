@@ -1,8 +1,9 @@
 uid: SR-0162
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.2.4
 text: Verify that training on sensitive datasets employs differentially-private optimization.
+normative: true
 links:
 - target: UR-0037
   type: implements

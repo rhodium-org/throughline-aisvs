@@ -1,9 +1,10 @@
 uid: SR-0137
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.4
-text: Verify that MCP tools/list returns only tools permitted by resource owners' authorized
-  scopes.
+text: Verify that MCP tools/list returns only tools permitted by resource owners'
+  authorized scopes.
+normative: true
 links:
 - target: UR-0033
   type: implements

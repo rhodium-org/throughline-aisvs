@@ -1,8 +1,10 @@
 uid: SR-0074
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.1.2
-text: Verify that model-generated output is bounded by length limits and termination controls.
+text: Verify that model-generated output is bounded by length limits and termination
+  controls.
+normative: true
 links:
 - target: UR-0019
   type: implements

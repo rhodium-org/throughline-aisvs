@@ -1,9 +1,10 @@
 uid: SR-0110
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.3.1
-text: Verify that each tool/plugin executes in a least-privilege sandbox or is otherwise isolated
-  from model operations.
+text: Verify that each tool/plugin executes in a least-privilege sandbox or is otherwise
+  isolated from model operations.
+normative: true
 links:
 - target: UR-0028
   type: implements

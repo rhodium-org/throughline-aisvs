@@ -1,9 +1,10 @@
 uid: SR-0115
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.3.6
-text: Verify that there is architectural separation between processing of untrusted tool outputs
-  and agent operations.
+text: Verify that there is architectural separation between processing of untrusted
+  tool outputs and agent operations.
+normative: true
 links:
 - target: UR-0028
   type: implements

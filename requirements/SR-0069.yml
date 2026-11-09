@@ -1,9 +1,10 @@
 uid: SR-0069
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 6.1.4
-text: Verify that models pass a behavioral acceptance test suite before being promoted to any
-  non-development environment.
+text: Verify that models pass a behavioral acceptance test suite before being promoted
+  to any non-development environment.
+normative: true
 links:
 - target: UR-0017
   type: implements

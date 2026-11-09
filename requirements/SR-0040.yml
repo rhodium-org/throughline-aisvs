@@ -1,8 +1,9 @@
 uid: SR-0040
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.5.4
 text: Verify that fine-tuning checkpoints are registered as distinct artifacts.
+normative: true
 links:
 - target: UR-0010
   type: implements

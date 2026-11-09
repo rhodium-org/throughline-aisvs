@@ -1,9 +1,10 @@
 uid: SR-0185
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.4.1
-text: Verify that autonomous action triggers include proactive behavior-pattern analysis, security
-  evaluation, and threat-landscape assessment.
+text: Verify that autonomous action triggers include proactive behavior-pattern analysis,
+  security evaluation, and threat-landscape assessment.
+normative: true
 links:
 - target: UR-0043
   type: implements

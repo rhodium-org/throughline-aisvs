@@ -1,10 +1,11 @@
 uid: SR-0138
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.5
-text: Verify that MCP servers enforce access control on every tool invocation, validating that
-  the user's access token authorizes both the requested tool and the specific argument values
-  supplied.
+text: Verify that MCP servers enforce access control on every tool invocation, validating
+  that the user's access token authorizes both the requested tool and the specific
+  argument values supplied.
+normative: true
 links:
 - target: UR-0033
   type: implements

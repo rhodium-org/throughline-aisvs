@@ -1,9 +1,11 @@
 uid: SR-0122
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.5.1
-text: Verify that agent actions are authorized against fine-grained policies enforced by the
-  runtime that restrict which tools an agent may invoke, and which parameter values it may supply.
+text: Verify that agent actions are authorized against fine-grained policies enforced
+  by the runtime that restrict which tools an agent may invoke, and which parameter
+  values it may supply.
+normative: true
 links:
 - target: UR-0030
   type: implements

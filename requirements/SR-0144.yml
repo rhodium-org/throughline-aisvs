@@ -1,9 +1,10 @@
 uid: SR-0144
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.3.4
-text: Verify that MCP clients enforce a minimum acceptable protocol version and reject initialize
-  responses that propose a version below that minimum.
+text: Verify that MCP clients enforce a minimum acceptable protocol version and reject
+  initialize responses that propose a version below that minimum.
+normative: true
 links:
 - target: UR-0034
   type: implements

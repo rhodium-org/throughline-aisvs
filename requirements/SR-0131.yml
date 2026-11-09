@@ -1,9 +1,10 @@
 uid: SR-0131
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.1.1
 text: Verify that MCP components are obtained only from trusted sources and cryptographically
   verified.
+normative: true
 links:
 - target: UR-0032
   type: implements

@@ -1,8 +1,10 @@
 uid: SR-0171
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.1.1
-text: Verify that AI interactions are logged with session context and AI-specific telemetry.
+text: Verify that AI interactions are logged with session context and AI-specific
+  telemetry.
+normative: true
 links:
 - target: UR-0040
   type: implements

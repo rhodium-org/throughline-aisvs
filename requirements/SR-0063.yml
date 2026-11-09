@@ -1,9 +1,10 @@
 uid: SR-0063
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 5.2.7
 text: Verify that data classification labels propagate to downstream resources (embeddings,
   prompt caches, model outputs).
+normative: true
 links:
 - target: UR-0015
   type: implements

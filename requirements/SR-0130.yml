@@ -1,9 +1,10 @@
 uid: SR-0130
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.6.3
-text: Verify that kill-switch commands are implemented through an out-of-band channel that is
-  isolated from the agent runtime.
+text: Verify that kill-switch commands are implemented through an out-of-band channel
+  that is isolated from the agent runtime.
+normative: true
 links:
 - target: UR-0031
   type: implements

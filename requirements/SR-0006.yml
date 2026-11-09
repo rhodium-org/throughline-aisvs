@@ -1,9 +1,10 @@
 uid: SR-0006
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 1.2.1
-text: Verify that labeling platforms enforce access controls that restrict who can create, modify,
-  or approve annotations.
+text: Verify that labeling platforms enforce access controls that restrict who can
+  create, modify, or approve annotations.
+normative: true
 links:
 - target: UR-0002
   type: implements

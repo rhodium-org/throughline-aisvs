@@ -1,9 +1,10 @@
 uid: SR-0005
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 1.1.5
-text: Verify that datasets are watermarked so their use can be attributed and any unauthorized
-  use detected.
+text: Verify that datasets are watermarked so their use can be attributed and any
+  unauthorized use detected.
+normative: true
 links:
 - target: UR-0001
   type: implements

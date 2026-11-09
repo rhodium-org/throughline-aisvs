@@ -1,8 +1,9 @@
 uid: SR-0167
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.3.4
 text: Verify that detection of suspected extraction triggers response measures.
+normative: true
 links:
 - target: UR-0038
   type: implements

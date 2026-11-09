@@ -1,12 +1,13 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: C1.2 — Data Labeling and Annotation Security
 text: Data Labeling and Annotation Security
-rationale: Labeling and annotation processes must be protected against unauthorized modification,
-  data leakage, and integrity compromise. Annotation platforms should enforce access control,
-  preserve auditability, and protect labeling artifacts and sensitive label content throughout
-  the training pipeline.
+rationale: Labeling and annotation processes must be protected against unauthorized
+  modification, data leakage, and integrity compromise. Annotation platforms should
+  enforce access control, preserve auditability, and protect labeling artifacts and
+  sensitive label content throughout the training pipeline.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

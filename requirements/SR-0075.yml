@@ -1,9 +1,10 @@
 uid: SR-0075
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.2.1
-text: Verify that the system assesses the reliability of generated answers using a confidence
-  estimation method.
+text: Verify that the system assesses the reliability of generated answers using
+  a confidence estimation method.
+normative: true
 links:
 - target: UR-0020
   type: implements

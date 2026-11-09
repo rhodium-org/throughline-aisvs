@@ -1,11 +1,12 @@
 uid: UR-0015
 type: user_requirement
-status: approved
+status: proposed
 title: C5.2 — AI Resource Authorization & Classification
 text: AI Resource Authorization & Classification
-rationale: The caller's authorization context must be enforced through AI-specific query pipelines
-  (RAG retrieval, embedding lookups, inference chains) so the system does not return data the
-  caller is not entitled to access.
+rationale: The caller's authorization context must be enforced through AI-specific
+  query pipelines (RAG retrieval, embedding lookups, inference chains) so the system
+  does not return data the caller is not entitled to access.
+normative: true
 links:
 - target: INT-0005
   type: derives_from

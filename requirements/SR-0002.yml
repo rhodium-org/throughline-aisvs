@@ -1,10 +1,11 @@
 uid: SR-0002
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 1.1.2
-text: Verify that an up-to-date inventory is kept of every training-data source, including its
-  origin, responsible party, license, collection method, intended use constraints, and processing
-  history.
+text: Verify that an up-to-date inventory is kept of every training-data source,
+  including its origin, responsible party, license, collection method, intended use
+  constraints, and processing history.
+normative: true
 links:
 - target: UR-0001
   type: implements

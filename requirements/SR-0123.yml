@@ -1,10 +1,11 @@
 uid: SR-0123
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.5.2
-text: Verify that when an agent acts on a user's behalf, the runtime propagates an integrity-protected,
-  scope-limited token that carries the user's authorization context and is enforced at every
-  downstream call.
+text: Verify that when an agent acts on a user's behalf, the runtime propagates an
+  integrity-protected, scope-limited token that carries the user's authorization
+  context and is enforced at every downstream call.
+normative: true
 links:
 - target: UR-0030
   type: implements

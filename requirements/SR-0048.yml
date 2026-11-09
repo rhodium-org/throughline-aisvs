@@ -1,9 +1,10 @@
 uid: SR-0048
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.2.4
-text: Verify that accelerator (GPU) memory is isolated between workloads through partitioning
-  mechanisms with memory sanitization between jobs.
+text: Verify that accelerator (GPU) memory is isolated between workloads through
+  partitioning mechanisms with memory sanitization between jobs.
+normative: true
 links:
 - target: UR-0012
   type: implements

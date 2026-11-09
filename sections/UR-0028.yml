@@ -1,10 +1,11 @@
 uid: UR-0028
 type: user_requirement
-status: approved
+status: proposed
 title: C9.3 — Component Isolation and Tool Authorization
 text: Component Isolation and Tool Authorization
-rationale: Tool and plugin execution, loading, and outputs must be constrained to prevent unauthorized
-  system access and unsafe side effects.
+rationale: Tool and plugin execution, loading, and outputs must be constrained to
+  prevent unauthorized system access and unsafe side effects.
+normative: true
 links:
 - target: INT-0009
   type: derives_from

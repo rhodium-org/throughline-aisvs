@@ -1,9 +1,11 @@
 uid: UR-0025
 type: user_requirement
-status: approved
+status: proposed
 title: C8.3 — Memory Expiry & Revocation
 text: Memory Expiry & Revocation
-rationale: Retention and revocation must be explicit and enforceable for memory and RAG indices.
+rationale: Retention and revocation must be explicit and enforceable for memory and
+  RAG indices.
+normative: true
 links:
 - target: INT-0008
   type: derives_from

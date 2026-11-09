@@ -1,10 +1,11 @@
 uid: UR-0016
 type: user_requirement
-status: approved
+status: proposed
 title: C5.3 — Multi-Tenant Isolation
 text: Multi-Tenant Isolation
-rationale: Cross-tenant information leakage through AI-specific shared infrastructure, such
-  as inference caches and shared model state, must be prevented.
+rationale: Cross-tenant information leakage through AI-specific shared infrastructure,
+  such as inference caches and shared model state, must be prevented.
+normative: true
 links:
 - target: INT-0005
   type: derives_from

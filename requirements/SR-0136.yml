@@ -1,9 +1,10 @@
 uid: SR-0136
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.3
-text: Verify that MCP servers acting as OAuth 2.1 resource servers do not store or persist access
-  tokens or user credentials.
+text: Verify that MCP servers acting as OAuth 2.1 resource servers do not store or
+  persist access tokens or user credentials.
+normative: true
 links:
 - target: UR-0033
   type: implements

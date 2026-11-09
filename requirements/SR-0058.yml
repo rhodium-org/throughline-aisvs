@@ -1,10 +1,11 @@
 uid: SR-0058
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 5.2.2
-text: Verify that retrieval pipelines (e.g., RAG queries, embedding lookups) enforce the end-user's
-  authorization context at each retrieval and assembly stage, rather than relying solely on
-  the service account's permissions.
+text: Verify that retrieval pipelines (e.g., RAG queries, embedding lookups) enforce
+  the end-user's authorization context at each retrieval and assembly stage, rather
+  than relying solely on the service account's permissions.
+normative: true
 links:
 - target: UR-0015
   type: implements

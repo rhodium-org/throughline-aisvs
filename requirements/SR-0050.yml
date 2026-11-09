@@ -1,9 +1,10 @@
 uid: SR-0050
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.3.1
-text: Verify that edge AI devices authenticate to central infrastructure using strong authentication
-  mechanisms.
+text: Verify that edge AI devices authenticate to central infrastructure using strong
+  authentication mechanisms.
+normative: true
 links:
 - target: UR-0013
   type: implements

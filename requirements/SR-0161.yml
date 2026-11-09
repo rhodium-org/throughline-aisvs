@@ -1,8 +1,9 @@
 uid: SR-0161
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.2.3
 text: Verify that model outputs are calibrated to reduce overconfident predictions.
+normative: true
 links:
 - target: UR-0037
   type: implements

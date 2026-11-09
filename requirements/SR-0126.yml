@@ -1,8 +1,10 @@
 uid: SR-0126
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.5.5
-text: Verify that inter-agent task delegation is restricted by an explicit authorization policy.
+text: Verify that inter-agent task delegation is restricted by an explicit authorization
+  policy.
+normative: true
 links:
 - target: UR-0030
   type: implements

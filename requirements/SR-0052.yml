@@ -1,8 +1,9 @@
 uid: SR-0052
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.3.3
 text: Verify that inference runtimes enforce process, memory, and file access isolation.
+normative: true
 links:
 - target: UR-0013
   type: implements

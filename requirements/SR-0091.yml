@@ -1,9 +1,10 @@
 uid: SR-0091
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.2.3
-text: Verify that agent outputs and tool outputs are not automatically written to trusted agent
-  memory without explicit source validation.
+text: Verify that agent outputs and tool outputs are not automatically written to
+  trusted agent memory without explicit source validation.
+normative: true
 links:
 - target: UR-0024
   type: implements

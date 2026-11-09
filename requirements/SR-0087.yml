@@ -1,8 +1,9 @@
 uid: SR-0087
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.1.2
 text: Verify that document metadata tags are immutable after the initial write.
+normative: true
 links:
 - target: UR-0023
   type: implements

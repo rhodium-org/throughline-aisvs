@@ -1,9 +1,10 @@
 uid: SR-0166
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.3.3
-text: Verify that model watermarking or fingerprinting techniques are applied so that unauthorized
-  copies can be identified.
+text: Verify that model watermarking or fingerprinting techniques are applied so
+  that unauthorized copies can be identified.
+normative: true
 links:
 - target: UR-0038
   type: implements

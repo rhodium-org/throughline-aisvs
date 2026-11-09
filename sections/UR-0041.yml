@@ -1,12 +1,13 @@
 uid: UR-0041
 type: user_requirement
-status: approved
+status: proposed
 title: C12.2 — Detection and Alerting
 text: Detection and Alerting
-rationale: AI-specific attack patterns (jailbreak, prompt injection, model extraction, multi-turn
-  trajectory attacks, covert channels over LLM endpoints) must be detected, and security events
-  enriched with AI-specific context so downstream detection and response systems can act on
-  them.
+rationale: AI-specific attack patterns (jailbreak, prompt injection, model extraction,
+  multi-turn trajectory attacks, covert channels over LLM endpoints) must be detected,
+  and security events enriched with AI-specific context so downstream detection and
+  response systems can act on them.
+normative: true
 links:
 - target: INT-0012
   type: derives_from

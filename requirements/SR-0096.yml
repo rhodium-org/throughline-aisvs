@@ -1,8 +1,10 @@
 uid: SR-0096
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.3.3
-text: Verify that quarantined content is retained but excluded from all retrieval results.
+text: Verify that quarantined content is retained but excluded from all retrieval
+  results.
+normative: true
 links:
 - target: UR-0025
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0111
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.3.2
 text: Verify that tool outputs are validated against schemas.
+normative: true
 links:
 - target: UR-0028
   type: implements

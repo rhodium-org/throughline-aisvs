@@ -1,9 +1,10 @@
 uid: SR-0158
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.1.5
-text: Verify that an automated evaluator measures harmful-content rate and flags regressions
-  beyond a defined threshold.
+text: Verify that an automated evaluator measures harmful-content rate and flags
+  regressions beyond a defined threshold.
+normative: true
 links:
 - target: UR-0036
   type: implements

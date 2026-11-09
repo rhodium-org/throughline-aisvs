@@ -1,9 +1,10 @@
 uid: SR-0140
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.7
-text: Verify that MCP servers do not pass through access tokens received from clients to downstream
-  APIs.
+text: Verify that MCP servers do not pass through access tokens received from clients
+  to downstream APIs.
+normative: true
 links:
 - target: UR-0033
   type: implements

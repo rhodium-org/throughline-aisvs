@@ -1,9 +1,10 @@
 uid: SR-0035
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.4.1
-text: Verify that AI-specific runtime components are not shared across environment boundaries
-  (e.g., development, staging, production).
+text: Verify that AI-specific runtime components are not shared across environment
+  boundaries (e.g., development, staging, production).
+normative: true
 links:
 - target: UR-0009
   type: implements

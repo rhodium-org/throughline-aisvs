@@ -1,9 +1,11 @@
 uid: SR-0105
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.2.6
-text: Verify that agentic systems include an AI-augmented review of planned high-risk actions
-  before execution that adds to, and does not replace, the deterministic policy gate.
+text: Verify that agentic systems include an AI-augmented review of planned high-risk
+  actions before execution that adds to, and does not replace, the deterministic
+  policy gate.
+normative: true
 links:
 - target: UR-0027
   type: implements

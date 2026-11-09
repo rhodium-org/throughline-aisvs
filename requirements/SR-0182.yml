@@ -1,9 +1,10 @@
 uid: SR-0182
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.3.2
-text: Verify that hallucination detection monitors identify and flag model outputs that contain
-  factually incorrect, inconsistent, or fabricated information.
+text: Verify that hallucination detection monitors identify and flag model outputs
+  that contain factually incorrect, inconsistent, or fabricated information.
+normative: true
 links:
 - target: UR-0042
   type: implements

@@ -1,10 +1,11 @@
 uid: UR-0008
 type: user_requirement
-status: approved
+status: proposed
 title: C3.3 — Controlled Deployment & Rollback
 text: Controlled Deployment & Rollback
-rationale: Model deployments must be controlled, monitored, and reversible to support lifecycle
-  management.
+rationale: Model deployments must be controlled, monitored, and reversible to support
+  lifecycle management.
+normative: true
 links:
 - target: INT-0003
   type: derives_from

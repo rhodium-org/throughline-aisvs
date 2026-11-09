@@ -1,8 +1,9 @@
 uid: SR-0169
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.4.2
 text: Verify that inputs flagged as anomalous trigger gating actions.
+normative: true
 links:
 - target: UR-0039
   type: implements

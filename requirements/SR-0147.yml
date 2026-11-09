@@ -1,9 +1,10 @@
 uid: SR-0147
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.4.2
-text: Verify that MCP tools/list and tools/call responses are screened for indirect prompt injection
-  before being injected into the model context.
+text: Verify that MCP tools/list and tools/call responses are screened for indirect
+  prompt injection before being injected into the model context.
+normative: true
 links:
 - target: UR-0035
   type: implements

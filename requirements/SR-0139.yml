@@ -1,8 +1,10 @@
 uid: SR-0139
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.2.6
-text: Verify that MCP servers ensure all session artifacts are removed when a session terminates.
+text: Verify that MCP servers ensure all session artifacts are removed when a session
+  terminates.
+normative: true
 links:
 - target: UR-0033
   type: implements

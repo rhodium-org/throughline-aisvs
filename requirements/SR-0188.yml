@@ -1,9 +1,10 @@
 uid: SR-0188
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.5.1
-text: Verify that dataset lineage records each dataset and its components, including all transformations,
-  augmentations, and merges.
+text: Verify that dataset lineage records each dataset and its components, including
+  all transformations, augmentations, and merges.
+normative: true
 links:
 - target: UR-0044
   type: implements

@@ -1,8 +1,10 @@
 uid: SR-0178
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.2.4
-text: Verify that extraction-alert events include offending query metadata to support investigation.
+text: Verify that extraction-alert events include offending query metadata to support
+  investigation.
+normative: true
 links:
 - target: UR-0041
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0154
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.1.1
-text: Verify that the model has undergone alignment and safety training or fine-tuning to prevent
-  the model from generating disallowed content categories.
+text: Verify that the model has undergone alignment and safety training or fine-tuning
+  to prevent the model from generating disallowed content categories.
+normative: true
 links:
 - target: UR-0036
   type: implements

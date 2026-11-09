@@ -1,9 +1,10 @@
 uid: SR-0038
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.5.2
-text: Verify that RLHF training stages include automated detection of reward hacking or reward
-  model over-optimization.
+text: Verify that RLHF training stages include automated detection of reward hacking
+  or reward model over-optimization.
+normative: true
 links:
 - target: UR-0010
   type: implements

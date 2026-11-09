@@ -1,9 +1,10 @@
 uid: SR-0049
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.2.5
-text: Verify that accelerator interconnects are restricted to approved topologies and authenticated
-  endpoints.
+text: Verify that accelerator interconnects are restricted to approved topologies
+  and authenticated endpoints.
+normative: true
 links:
 - target: UR-0012
   type: implements

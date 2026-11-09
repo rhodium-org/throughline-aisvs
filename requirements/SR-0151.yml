@@ -1,9 +1,10 @@
 uid: SR-0151
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.4.6
-text: Verify that MCP servers sign tool responses with a unique nonce and timestamp so MCP clients
-  can detect replay attempts.
+text: Verify that MCP servers sign tool responses with a unique nonce and timestamp
+  so MCP clients can detect replay attempts.
+normative: true
 links:
 - target: UR-0035
   type: implements

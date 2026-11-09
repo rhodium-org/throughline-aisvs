@@ -1,9 +1,10 @@
 uid: SR-0042
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.1.2
-text: Verify that model artifact loading enforces an explicit allow-list of serialization formats
-  that do not permit arbitrary code execution during deserialization.
+text: Verify that model artifact loading enforces an explicit allow-list of serialization
+  formats that do not permit arbitrary code execution during deserialization.
+normative: true
 links:
 - target: UR-0011
   type: implements

@@ -1,8 +1,9 @@
 uid: SR-0080
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.3.3
 text: Verify that model-generated output is prevented from triggering outbound requests.
+normative: true
 links:
 - target: UR-0021
   type: implements

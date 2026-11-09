@@ -1,9 +1,10 @@
 uid: SR-0079
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.3.2
-text: Verify that output filters detect and block responses that disclose system prompt content
-  or backend data.
+text: Verify that output filters detect and block responses that disclose system
+  prompt content or backend data.
+normative: true
 links:
 - target: UR-0021
   type: implements

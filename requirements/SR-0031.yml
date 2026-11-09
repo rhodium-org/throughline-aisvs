@@ -1,9 +1,10 @@
 uid: SR-0031
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.2.3
 text: Verify that provider model, version, or routing changes trigger security re-evaluation
   before continued use.
+normative: true
 links:
 - target: UR-0007
   type: implements

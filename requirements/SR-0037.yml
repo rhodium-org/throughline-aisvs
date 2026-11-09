@@ -1,9 +1,10 @@
 uid: SR-0037
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.5.1
-text: Verify that models used in RLHF fine-tuning are versioned and integrity-verified before
-  use in a training run.
+text: Verify that models used in RLHF fine-tuning are versioned and integrity-verified
+  before use in a training run.
+normative: true
 links:
 - target: UR-0010
   type: implements

@@ -1,10 +1,11 @@
 uid: UR-0014
 type: user_requirement
-status: approved
+status: proposed
 title: C5.1 — Authentication
 text: Authentication
-rationale: AI agents and human users accessing resources must be properly authenticated and
-  authorized for their level of access.
+rationale: AI agents and human users accessing resources must be properly authenticated
+  and authorized for their level of access.
+normative: true
 links:
 - target: INT-0005
   type: derives_from

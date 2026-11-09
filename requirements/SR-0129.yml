@@ -1,9 +1,10 @@
 uid: SR-0129
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.6.2
-text: Verify that when a human-approval gate is not satisfied within the defined approval time,
-  the system blocks the pending action.
+text: Verify that when a human-approval gate is not satisfied within the defined
+  approval time, the system blocks the pending action.
+normative: true
 links:
 - target: UR-0031
   type: implements

@@ -1,9 +1,10 @@
 uid: SR-0170
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.4.3
-text: Verify that the safety violation feedback pipeline includes poisoning detection and human
-  review gates to prevent adversarial manipulation of the improvement mechanism.
+text: Verify that the safety violation feedback pipeline includes poisoning detection
+  and human review gates to prevent adversarial manipulation of the improvement mechanism.
+normative: true
 links:
 - target: UR-0039
   type: implements

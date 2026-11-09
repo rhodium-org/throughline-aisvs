@@ -1,12 +1,13 @@
 uid: UR-0001
 type: user_requirement
-status: approved
+status: proposed
 title: C1.1 — Training Data Origin & Data Security
 text: Training Data Origin & Data Security
-rationale: Training data origin and security are critical to the trustworthiness of any AI system.
-  Datasets must be sourced from verifiable origins, tracked across their full lifecycle, and
-  protected against tampering, corruption, and poisoning so that unauthorized modification can
-  be detected.
+rationale: Training data origin and security are critical to the trustworthiness
+  of any AI system. Datasets must be sourced from verifiable origins, tracked across
+  their full lifecycle, and protected against tampering, corruption, and poisoning
+  so that unauthorized modification can be detected.
+normative: true
 links:
 - target: INT-0001
   type: derives_from

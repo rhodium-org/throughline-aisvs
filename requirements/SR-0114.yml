@@ -1,9 +1,11 @@
 uid: SR-0114
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.3.5
-text: Verify that components processing untrusted data are isolated from tool-calling capabilities,
-  ensuring that compromised data processing cannot trigger unauthorized tool invocations.
+text: Verify that components processing untrusted data are isolated from tool-calling
+  capabilities, ensuring that compromised data processing cannot trigger unauthorized
+  tool invocations.
+normative: true
 links:
 - target: UR-0028
   type: implements

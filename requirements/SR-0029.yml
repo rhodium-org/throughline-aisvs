@@ -1,9 +1,10 @@
 uid: SR-0029
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.2.1
-text: Verify that models undergo automated input validation testing, safety evaluation testing,
-  and output sanitization testing before deployment.
+text: Verify that models undergo automated input validation testing, safety evaluation
+  testing, and output sanitization testing before deployment.
+normative: true
 links:
 - target: UR-0007
   type: implements

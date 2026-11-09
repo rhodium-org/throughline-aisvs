@@ -1,9 +1,10 @@
 uid: SR-0093
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 8.2.5
-text: Verify that new content written to memory is checked for contradictions with what is already
-  stored and that conflicts trigger alerts.
+text: Verify that new content written to memory is checked for contradictions with
+  what is already stored and that conflicts trigger alerts.
+normative: true
 links:
 - target: UR-0024
   type: implements

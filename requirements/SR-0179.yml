@@ -1,9 +1,10 @@
 uid: SR-0179
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.2.5
-text: Verify that token usage is tracked at granular attribution levels including per user,
-  per session, per feature endpoint, and per team or workspace.
+text: Verify that token usage is tracked at granular attribution levels including
+  per user, per session, per feature endpoint, and per team or workspace.
+normative: true
 links:
 - target: UR-0041
   type: implements

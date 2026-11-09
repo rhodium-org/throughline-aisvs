@@ -1,9 +1,10 @@
 uid: INT-0008
 type: intent
-status: approved
+status: proposed
 title: C8 — Memory, Embeddings & Vector Database Security
-text: This chapter addresses securing the embeddings and vector stores that act as semi-persistent
-  and persistent "memory" for AI systems through Retrieval-Augmented Generation (RAG).
+text: This chapter addresses securing the embeddings and vector stores that act as
+  semi-persistent and persistent "memory" for AI systems through Retrieval-Augmented
+  Generation (RAG).
 normative: false
 attrs:
   source_ref: C8

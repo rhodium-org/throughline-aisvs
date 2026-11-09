@@ -1,9 +1,10 @@
 uid: SR-0109
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 9.2.10
-text: Verify that approval gates for multi-step or multi-agent action chains enforce the highest-impact
-  reversibility classification present anywhere in the chain.
+text: Verify that approval gates for multi-step or multi-agent action chains enforce
+  the highest-impact reversibility classification present anywhere in the chain.
+normative: true
 links:
 - target: UR-0027
   type: implements

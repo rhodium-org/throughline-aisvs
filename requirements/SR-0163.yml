@@ -1,9 +1,10 @@
 uid: SR-0163
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 11.2.5
-text: Verify that membership-inference attack simulations demonstrate that attack accuracy does
-  not exceed random guessing on evaluated data.
+text: Verify that membership-inference attack simulations demonstrate that attack
+  accuracy does not exceed random guessing on evaluated data.
+normative: true
 links:
 - target: UR-0037
   type: implements

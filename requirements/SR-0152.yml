@@ -1,9 +1,10 @@
 uid: SR-0152
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 10.4.7
 text: Verify that MCP clients present users with explicit consent dialogue and cancellation
   options upon installation of a local MCP server.
+normative: true
 links:
 - target: UR-0035
   type: implements

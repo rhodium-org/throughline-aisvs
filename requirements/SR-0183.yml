@@ -1,9 +1,10 @@
 uid: SR-0183
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 12.3.3
-text: Verify that hallucination rates are tracked as continuous time-series metrics to enable
-  trend analysis and detection of sustained model degradation.
+text: Verify that hallucination rates are tracked as continuous time-series metrics
+  to enable trend analysis and detection of sustained model degradation.
+normative: true
 links:
 - target: UR-0042
   type: implements

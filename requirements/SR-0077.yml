@@ -1,9 +1,10 @@
 uid: SR-0077
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 7.2.3
-text: Verify that for responses classified as high-risk by policy, the system performs an additional
-  verification step.
+text: Verify that for responses classified as high-risk by policy, the system performs
+  an additional verification step.
+normative: true
 links:
 - target: UR-0020
   type: implements

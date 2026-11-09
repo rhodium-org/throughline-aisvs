@@ -1,8 +1,10 @@
 uid: SR-0036
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 3.4.2
-text: Verify that model training and fine-tuning environments are isolated from production environments.
+text: Verify that model training and fine-tuning environments are isolated from production
+  environments.
+normative: true
 links:
 - target: UR-0009
   type: implements

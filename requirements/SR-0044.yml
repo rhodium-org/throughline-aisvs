@@ -1,9 +1,10 @@
 uid: SR-0044
 type: system_requirement
-status: approved
+status: proposed
 title: AISVS 4.1.4
-text: Verify that confidential inference services protect model weights during runtime through
-  isolated execution environments.
+text: Verify that confidential inference services protect model weights during runtime
+  through isolated execution environments.
+normative: true
 links:
 - target: UR-0011
   type: implements

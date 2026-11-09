@@ -1,10 +1,11 @@
 uid: UR-0038
 type: user_requirement
-status: approved
+status: proposed
 title: C11.3 — Model-Extraction Defense
 text: Model-Extraction Defense
-rationale: Unauthorized model cloning through API abuse must be detected and deterred using
-  rate limiting, query-pattern analysis, and watermarking.
+rationale: Unauthorized model cloning through API abuse must be detected and deterred
+  using rate limiting, query-pattern analysis, and watermarking.
+normative: true
 links:
 - target: INT-0011
   type: derives_from
